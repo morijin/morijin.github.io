@@ -1,8 +1,11 @@
 ---
 title: Git Bash 명령어
+description: git bash 명령어 이것저것
+image: 
 ---
 
-# Git Bash 명령어 #
+**<span style="color:blue">git init</span>**
+ : git 저장소 생성 (폴더안에..)
 
 **<span style="color:blue">git status</span>**
  : 이것은 파일들의 상태를 확인한다. 관리대상(untraked files) 인지 아닌지 변경된 파일이 있는지  
