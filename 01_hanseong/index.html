@@ -1,0 +1,757 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="img/pavicon.ico">
+		<title>서울 한성백제박물관</title>
+		<link type="text/css" rel="stylesheet" href="css/common.css" media="all">
+		<link rel="http://fonts.googleapis.com/earlyaccess/notosanskr.css">
+		<link rel="http://fonts.googleapis.com/earlyaccess/kopubbatang.css">
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<link type="text/css" rel="stylesheet" href="css/banner.css">
+		<link type="text/css" rel="stylesheet" href="css/layout.css">
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/gnb.js"></script>
+		<script src="js/topmenu.js"></script>
+		<script src="js/background.cycle.js"></script>
+		<script src="js/jquery.bxslider.js"></script>
+		<script src="js/cjem.ui.RollingBanner.js"></script>
+		<script>
+		    $(document).ready(function() {
+		        $("#main_contents").backgroundCycle({
+		            imageUrls: [
+		            	// 이미지 경로쓰기
+		                'img/bg_01.jpg',
+		                'img/bg_01_02.jpg',
+		                'img/bg_01_03.jpg'
+		            ],
+		            fadeSpeed: 1500,
+		            duration: 2000,
+		            backgroundSize: SCALING_MODE_COVER
+		        });
+		    });
+		</script>
+		<script>
+			$(document).ready(function() {
+				var _body = $('.contentsList .simple');
+				_body.RollingBannerFunc({
+					slide_imgItem : _body.find('.contentsRolling li')  
+					,point : _body.find('.point_navi a') 					
+					,aniSpeed : 550
+					,autoPlay:true				//자동 롤링 설정 (기본 : true)
+					,motionType : "css3,fade"		//css3, IE하위 버전은 fade적용
+				});
+			});
+		</script>
+		<script>
+		        $( function () {
+		            var mySlider = $( '.bxslider' ).bxSlider( {
+		                mode: 'horizontal',// 가로 방향 수평 슬라이드
+		                speed: 500,        // 이동 속도를 설정
+		                pager: false,      // 현재 위치 페이징 표시 여부 설정
+		                moveSlides: 1,     // 슬라이드 이동시 개수
+		                slideWidth: 270,   // 슬라이드 너비
+		                minSlides: 1,      // 최소 노출 개수
+		                maxSlides: 4,      // 최대 노출 개수
+		                slideMargin: 0,    // 슬라이드간의 간격
+		                auto: true,        // 자동 실행 여부
+		                autoHover: true,   // 마우스 호버시 정지 여부
+		                controls: false    // 이전 다음 버튼 노출 여부
+		            } );
+		 
+		           //이전 버튼을 클릭하면 이전 슬라이드로 전환
+		            $( '.prev' ).on( 'click', function () {
+		                mySlider.goToPrevSlide();  //이전 슬라이드 배너로 이동
+		                return false;              //<a>에 링크 차단
+		            } );
+		 
+		           //다음 버튼을 클릭하면 다음 슬라이드로 전환
+		            $( '.next' ).on( 'click', function () {
+		                mySlider.goToNextSlide();  //다음 슬라이드 배너로 이동
+		                return false;
+		            } );
+		        } );
+		</script>
+	</head>
+	<body>
+		<div id="main_contents">
+			<div id="flowgnb">
+				<header id="header_group" class="clearfix option">
+					<h1>
+						<a href="#" class="logo sp"><span class="blind">한성백제박물관</span></a>
+					</h1>
+					<a id="open_mn" class="tp_icon" href="#open_mn">주메뉴 열기</a>
+					<nav id="gnb">
+						<div id="gnbwrap">
+							<div id="animate">
+								<div id="tnb">
+									<ul id="tm" class="gnb wrapper">
+										<li class="th1">
+											<a class="gnb_link th1_lnk" href="#">소개</a>
+											<div id="summry1" class="summry">
+												<ul class="th2">
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon1_1"></span></span>인사말</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon1_2"></span></span>설립목적</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon1_3"></span></span>스케치</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon1_4"></span></span>로고</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon1_5"></span></span>시설현황</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon1_6"></span></span>배경 및 연혁</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon1_7"></span></span>조직</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon1_8"></span></span>협약기관</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="th1">
+											<a class="gnb_link th1_lnk" href="#">이용</a>
+											<div id="summry2" class="summry">
+												<ul class="th2">
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon2_1"></span></span>관람안내</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon2_2"></span></span>층별안내</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon2_3"></span></span>예약안내</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon2_4"></span></span>스마트폰 전시안내</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon2_5"></span></span>대관신청</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon2_6"></span></span>U-전시안내서비스</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon2_7"></span></span>오시는길</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="th1">
+											<a class="gnb_link th1_lnk" href="#">전시</a>
+											<div id="summry3" class="summry">
+												<ul class="th2">
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon3_1"></span></span>전시실안내</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon3_2"></span></span>상설전시</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon3_3"></span></span>특별전시</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon3_4"></span></span>박물관가상체험</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon3_5"></span></span>백제4D 여행관</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon3_6"></span></span>유적안내</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="th1">
+											<a class="gnb_link th1_lnk" href="#">관리</a>
+											<div id="summry4" class="summry">
+												<ul class="th2">
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon4_1"></span></span>소장유물검색</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon4_2"></span></span>유물구입</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon4_3"></span></span>유물기증</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon4_4"></span></span>유물열람</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon4_5"></span></span>유물사진복제</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="th1">
+											<a class="gnb_link th1_lnk" href="#">행사</a>
+											<div id="summry5" class="summry">
+												<ul class="th2">
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon5_1"></span></span>교육행사캘린더</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon5_2"></span></span>연간교육일정</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon5_3"></span></span>교육행사안내</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon5_4"></span></span>문화행사안내</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon5_5"></span></span>교육자료실</a>
+														</li>
+												</ul>
+											</div>
+										</li>
+										<li class="th1">
+											<a class="gnb_link th1_lnk" href="#">열린마당</a>
+											<div id="summry6" class="summry">
+												<ul class="th2">
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon6_1"></span></span>공지사항</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon6_2"></span></span>고시공고</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon6_3"></span></span>보도자료</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon6_4"></span></span>민원서식</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon6_5"></span></span>자주하는질문</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon6_6"></span></span>시민참여마당</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon6_7"></span></span>자원봉사자 커뮤니티</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="th1">
+											<a class="gnb_link th1_lnk" href="#">자료실</a>
+											<div id="summry7" class="summry">
+												<ul class="th2">
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon7_1"></span></span>한성백제이야기</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon7_2"></span></span>백제역사배움터</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon7_3"></span></span>박물관간행물</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon7_4"></span></span>학술자료실</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon7_5"></span></span>홍보동영상</a>
+													</li>
+													<li>
+														<a class="th2_lnk th2_lnk" href="#">
+														<span class="border"><span class="sp gb_icon7_6"></span></span>정보자료실</a>
+													</li>
+												</ul>
+											</div>
+										</li><!-- 
+										<li class="th1">
+											<a class="gnb_link th1_lnk" href="#">연구</a>
+											<div id="summry8" class="summry">
+												<ul class="th2">
+													<li><a class="th2_lnk th2_lnk" href="#">백제학연구소 소개</a></li>
+													<li><a class="th2_lnk th2_lnk" href="#">학술회의</a></li>
+													<li><a class="th2_lnk th2_lnk" href="#">강연회</a></li>
+													<li><a class="th2_lnk th2_lnk" href="#">발굴조사</a></li>
+													<li><a class="th2_lnk th2_lnk" href="#">백제학 연구 자료실</a></li>
+													<li><a class="th2_lnk th2_lnk" href="#">기증자료실</a></li>
+													<li><a class="th2_lnk th2_lnk" href="#">게시판</a></li>
+												</ul>
+											</div>
+										</li> -->
+									</ul>
+									<div id="flower"></div>
+								</div>
+							</div>
+						</div>
+					</nav>
+					<script type="text/javascript">
+								(function(){
+
+									var param = "#gnb",
+										obj = ".summry",
+										btn = ".gnb_link",
+										wrap = "#animate",
+										elem = "1",
+										dur = 300,
+										meth = "easeOutCubic",
+										mno = "";
+
+									gnb(param,obj,btn,wrap,elem,dur,meth,mno);
+
+									flowerbar("#tnb","#flower",".th1>a","1");
+
+								}());
+					</script>
+				</header>
+			</div>
+			<nav id="m_topmenu">
+			</nav>
+			<div class="title_wrap">
+				<h2 class="title">				
+					<span class="sp title_icon"></span>
+					<p class="title_text">이천년의<br/>시간을 거슬러</p>
+				</h2>
+			</div>
+		</div>
+		<section id="story_box">
+			<h2 class="title">
+				<p class="title_text">서울, 2천년 고도로<br/>다시 서다</p>
+			</h2>
+			<div class="map">
+				<ul class="map_slot">
+					<li class="plus_wrapper"><a href="#" class="plus"></a><span class="pulse"></span>백제의 부활 자세히보기</li>
+					<li class="plus_wrapper"><a href="#" class="plus"></a><span class="pulse"></span>한강, 크고 넓은 강 자세히보기</li>
+					<li class="plus_wrapper"><a href="#" class="plus"></a><span class="pulse"></span>사람과 도구 자세히보기</li>
+					<li class="plus_wrapper"><a href="#" class="plus"></a><span class="pulse"></span>서울의 선사문화 자세히보기</li>
+					<li class="plus_wrapper"><a href="#" class="plus"></a><span class="pulse"></span>백제의 건국 자세히보기</li>
+					<li class="plus_wrapper"><a href="#" class="plus"></a><span class="pulse"></span>삼국의 한강 자세히보기</li>
+				</ul>
+			</div>
+		</section>
+		<section id="vr_box">
+			<div class="title_box">
+				<h2 class="title">박물관 가상체험</h2>
+			</div>
+			<div class="vr_wrap">
+				<ul class="vr_nav bxslider">
+					<li class="vr_list">
+						<a href="#" class="vr_lst_box">
+							<h3 class="vr_title">['16 겨울특별전] 고구려 고분벽화</h3>
+							<img class="vr_img" src="img/vr01.jpg" alt="고구려 고분벽화 전시장" width="270" height="182" />
+							<span class="vr_text">고구려 사람이 만든 삶生과 죽음死</span>
+							<span class="vr_date">2016.12.29~2017.02.26</span>
+						</a>
+					</li>
+					<li class="vr_list">
+						<a href="#" class="vr_lst_box">
+							<h3 class="vr_title">['16 가을특별전]공자와 그의 고향 : 산동</h3>
+							<img class="vr_img" src="img/vr02.jpg" alt="공자와 그의 고향 산동 전시장" width="270" height="182" />
+							<span class="vr_text">산둥박물관과의 첫번째 국제 교류전시회</span>
+							<span class="vr_date">2016.09.08~2016.12.04</span>
+						</a>
+					</li>
+					<li class="vr_list">
+						<a href="#" class="vr_lst_box">
+							<h3 class="vr_title">['16 여름특별전] 청자의 길 동아시아에서 세계로</h3>
+							<img class="vr_img" src="img/vr03.jpg" alt="청자의 길 전시장" width="270" height="182" />
+							<span class="vr_text">중국의 청자 발전역사</span>
+							<span class="vr_date">2016.06.28~2016.08.15</span>
+						</a>
+					</li>
+					<li class="vr_list">
+						<a href="#" class="vr_lst_box">
+							<h3 class="vr_title">['16 봄특별전]백제신라, 서울의 기억</h3>
+							<img class="vr_img" src="img/vr04.jpg" alt="백제신라, 서울의 기억 전시장" width="270" height="182" />
+							<span class="vr_text">서울이 조상들의 삶 속에 담겨있는 의미</span>
+							<span class="vr_date">2016.03.21~2016.06.06</span>
+						</a>
+					</li>
+					<li class="vr_list">
+						<a href="#" class="vr_lst_box">
+							<h3 class="vr_title">['16 겨울특별전] 고구려 고분벽화</h3>
+							<img class="vr_img" src="img/vr03.jpg" alt="고구려 고분벽화 전시장" width="270" height="182" />
+							<span>고구려 사람이 만든 삶生과 죽음死</span>
+							<span class="date">2016.12.29~2017.02.26</span>
+						</a>
+					</li>
+					<li class="vr_list">
+						<a href="#" class="vr_lst_box">
+							<h3 class="vr_title">['16 여름특별전] 청자의 길 동아시아에서 세계로</h3>
+							<img class="vr_img" src="img/vr01.jpg" alt="고구려 고분벽화 전시장" width="270" height="182" />
+							<span>중국의 청자 발전역사</span>
+							<span class="date">2016.06.28~2016.08.15</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<ul class="vr_control">
+				<li>
+					<button class="prev sp" type="button">다음 가상체험</button>
+				</li>
+				<li>
+					<button class="next sp" type="button">이전 가상체험</button>
+				</li>
+			</ul>
+		</section>
+		<section id="news_wrap">
+			<div class="title_box">
+				<h2 class="title">박물관 소식</h2>
+			</div>
+			<div class="news_box">
+				<div class="news_lst notice">
+					<h3>공지사항</h3>
+					<ul class="notice_lst">
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">제12기 한성백제박물관제아카데미 수강생 모집</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">학교 밖 박물관교실 참여 학교 모집 안내</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">[교육확정발표] 2017 상반기 온조역사</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">학교 밖 박물관교실 참여 학교 모집 안내</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">제12기 한성백제아카데미 모바일 수강...</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">이번주 행사 안내 (03월13일~03월1..</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">[영화]금요시네마-A.I.(3/17)</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">[영화]금요시네마-빅 히어로(3/10)</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+					</ul>
+					<a class="news_more sp" href="#">더보기</a>
+				</div>
+				<div class="news_lst announce">
+					<h3>고시공고</h3>
+					<ul>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">제12기 한성백제박물관제아카데미 수강생 모집</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">학교 밖 박물관교실 참여 학교 모집 안내</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">[교육확정발표] 2017 상반기 온조역사</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">학교 밖 박물관교실 참여 학교 모집 안내</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">제12기 한성백제아카데미 모바일 수강...</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">이번주 행사 안내 (03월13일~03월1..</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">[영화]금요시네마-A.I.(3/17)</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">[영화]금요시네마-빅 히어로(3/10)</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+					</ul>
+					<a class="news_more sp" href="#">더보기</a>
+				</div>
+				<div class="news_lst report">
+					<h3>보도자료</h3>
+					<ul>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">제12기 한성백제박물관제아카데미 수강생 모집</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">학교 밖 박물관교실 참여 학교 모집 안내</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">[교육확정발표] 2017 상반기 온조역사</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">학교 밖 박물관교실 참여 학교 모집 안내</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">제12기 한성백제아카데미 모바일 수강...</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">이번주 행사 안내 (03월13일~03월1..</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">[영화]금요시네마-A.I.(3/17)</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+						<li>
+							<span class="news_icon sp"></span>
+							<a href="#">
+								<span class="news_title">[영화]금요시네마-빅 히어로(3/10)</span>
+								<span class="news_date">2017-03-13</span>
+							</a>
+						</li>
+					</ul>
+					<a class="news_more sp" href="#">더보기</a>
+				</div>
+			</div>
+			<div class="other_box">
+				<div class="event_wrapper">
+					<div class="event_wrap">
+						<h3 class="event_title">전시 및 행사</h3>
+						<div class="contentsList">
+							<div class="contentsFrame simple">
+								<div class="contentsRolling">
+									<ul class="event_slide">
+										<li class="event_lst">
+											<a href="#">
+												<img src="img/event01.png" alt="무료음악회 포스터" width="327" height="190" />
+												<span>시민을 위한 무료 음악회</span>
+											</a>
+										</li>
+										<li class="event_lst">
+											<a href="#">
+												<img src="img/event02.png" alt="무료음악회 포스터" width="327" height="190" />
+												<span>시민을 위한 무료 음악회</span>
+											</a>
+										</li>
+										<li class="event_lst">
+											<a href="#">
+												<img src="img/event01.png" alt="무료음악회 포스터" width="327" height="190" />
+												<span>시민을 위한 무료 음악회</span>
+											</a>
+										</li>				
+									</ul>
+								</div>
+								<div class="point_navi">
+									<p>
+										<a href="#" class="sp"><span>1</span></a>
+										<a href="#" class="sp"><span>2</span></a>
+										<a href="#" class="sp"><span>3</span></a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="quick_menu">
+						<h3 class="quick_title">Quick Menu</h3>
+						<ul class="quick_wrap">
+							<li class="quick_lst">
+								<a class="quick quick01" href="#">
+									<span class="quick_icon sp"></span>
+									<span class="quick_text">고객의 소리</span>
+								</a>
+							</li>
+							<li class="quick_lst">
+								<a class="quick quick02" href="#">
+									<span class="quick_icon icon02 sp"></span>
+									<span class="quick_text">교육행사</span>
+								</a>
+							</li>
+							<li class="quick_lst">
+								<a class="quick quick03" href="#">
+									<span class="quick_icon icon03 sp"></span>
+									<span class="quick_text">문화행사</span>
+								</a>
+							</li>
+							<li class="quick_lst">
+								<a class="quick quick04" href="#">
+									<span class="quick_icon icon04 sp"></span>
+									<span class="quick_text">주요일정</span>
+								</a>
+							</li>
+							<li class="quick_lst">
+								<a class="quick quick05" href="#">
+									<span class="quick_icon icon05 sp"></span>
+									<span class="quick_text">백제학연구소</span>
+								</a>
+							</li>
+							<li class="quick_lst">
+								<a class="quick quick06" href="#">
+									<span class="quick_icon icon06 sp"></span>
+									<span class="quick_text">몽촌역사관</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer id="footer">
+			<div class="footer_wrap">
+				<span class="foot_logo sp">한성백제박물관</span>
+				<div class="info_wrap">
+					<ul class="info">
+						<li><a href="#">오시는길</a></li>
+						<li><span class="bar sp"></span><a href="#">개인보호정책</a></li>
+						<li><span class="bar sp"></span><a href="#">저작권정책</a></li>
+						<li><span class="bar sp"></span><a href="#">뷰어다운로드</a></li>
+					</ul>
+					<address>05540) 서울특별시 송파구 위례성대로 71 한성백제박물관</address>
+					<p>Copyright©2011 By SEOUL BAEKJE MUSEUM, ALL Right Reserved</p>
+					<p>TEL : 02-2152-5800   FAX : 02-2152-5879</p>
+				</div>
+				<select class="info02">
+					<option value="" title="서울시">서울시</option>
+					<option value="" title="국립중앙박물관">국립중앙박물관</option>
+					<option value="" title="국립민속박물관">국립민속박물관</option>
+					<option value="" title="서울역사박물관">서울역사박물관</option>
+					<option value="" title="문화체육관광부">문화체육관광부</option>
+					<option value="" title="문화재청">문화재청</option>
+					<option value="" title="국립부여박물관">국립부여박물관</option>
+					<option value="" title="국립공주박물관">국립공주박물관</option>
+					<option value="" title="대가야박물관">대가야박물관</option>
+					<option value="" title="국립광주박물관">국립광주박물관</option>
+				</select>
+				<select class="info03">
+					<option value="" title="페이스북">페이스북</option>
+					<option value="" title="트위터">트위터</option>
+					<option value="" title="블로그">블로그</option>
+					<option value="" title="카카오스토리">카카오스토리</option>
+					<option value="" title="인스타그램">인스타그램</option>
+					<option value="" title="유튜브">유튜브</option>
+					<option value="" title="네이버밴드">네이버밴드</option>
+				</select>
+			</div>
+		</footer>
+	</body>
+</html>

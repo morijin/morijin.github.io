@@ -1,0 +1,2666 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border-radius",
+				"border-bottom-left-radius"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"SKI",
+				"SKINRx"
+			],
+			[
+				"overflow",
+				"overflow"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 26909,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/00_조진경/연습하기/css_pulse.html",
+			"settings":
+			{
+				"buffer_size": 11211,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "<!doctype html>"
+			}
+		},
+		{
+			"file": "/D/00_조진경/코딩기본/z_zz - 복사본.html",
+			"settings":
+			{
+				"buffer_size": 217,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/00_조진경/코딩기본/000.css",
+			"settings":
+			{
+				"buffer_size": 337,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<html lang=\"ko\"><!-- <title>gonet 기본 디폴트</title> --><head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,width=device-width\">\n<meta name=\"description\" content=\"지질박물관\">\n<meta name=\"keywords\" content=\"지질박물관\">\n<meta property=\"og:image\" content=\"http://museum.kigam.re.kr/Upl/kr/setting//Img/kr/common/btn_cir_r.png\">\n<meta property=\"og:description\" content=\"지질박물관\">\n\n<title>지질박물관</title>\n<link rel=\"stylesheet\" href=\"/css/common/common.css\" type=\"text/css\" media=\"all\">\n<link rel=\"stylesheet\" href=\"/css/common/cmpt.css\" type=\"text/css\" media=\"all\">\n<link rel=\"stylesheet\" href=\"/css/common/ui.css\" type=\"text/css\" media=\"all\">\n<link rel=\"stylesheet\" href=\"/css/common/prog.css\" type=\"text/css\" media=\"all\">\n<link rel=\"stylesheet\" href=\"/css/common/font.css\" type=\"text/css\" media=\"all\">\n<link rel=\"stylesheet\" href=\"/css/kr/layout.css\" type=\"text/css\" media=\"all\">\n \n<link rel=\"stylesheet\" href=\"/css/kr/main.css\" type=\"text/css\" media=\"all\">\n<!-- 필수스크립트시작-->\n<!--[if lt IE 9]>\n<script src=\"/js/rwd/html5.js\"></script>\n<script src=\"/js/rwd/respond.min.js\"></script>\n<![endif]-->\n\n\n\n<script async=\"\" src=\"https://www.google-analytics.com/analytics.js\"></script><script type=\"text/javascript\" async=\"\" src=\"https://www.gstatic.com/recaptcha/api2/r20170320152239/recaptcha__ko.js\"></script><script type=\"text/javascript\" src=\"/js/jquery-1.11.2.min.js\"></script>\n<script type=\"text/javascript\" src=\"/js/jquery.easing.1.3.js\"></script>\n<script type=\"text/javascript\" src=\"/js/common/script.js\"></script>\n<script type=\"text/javascript\" src=\"/js/common/common-scroll.js\"></script>\n\n<script type=\"text/javascript\" src=\"/tmpl/kr/js/gnb.js\"></script>\n<script type=\"text/javascript\" src=\"/tmpl/kr/js/topmenu.js\"></script>\n\n<!--<script type=\"text/javascript\" src=\"/tmpl/kr/js/jquery.lnb.js\"></script>-->\n<!--<script type=\"text/javascript\" src=\"/tmpl/kr/js/common-popup.js\"></script>-->\n<!--\n<script type=\"text/javascript\" src=\"/tmpl/kr/js/common-scroll.js\"></script>\n<script type=\"text/javascript\" src=\"/tmpl/kr/js/template-ui.js\"></script>\n-->\n<!--\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/js/flexcroll/flexcrollstyles.css\" />\n<script type=\"text/javascript\" src=\"/js/flexcroll/flexcroll.js\"></script>\n-->\n\n\n\n\n\n\n\n<!-- 필수스크립트끝 -->\n\n\n\n<script type=\"text/javascript\" src=\"/js/kr/common.js\"></script>\n<script type=\"text/javascript\" src=\"/js/mousewheel/jquery.mousewheel.js\"></script>\n<script type=\"text/javascript\" src=\"/js/kr/mcustom.js\"></script>\n<!--<script type=\"text/javascript\" src=\"/js/kr/main.js\"></script>-->\n<script type=\"text/javascript\" src=\"/js/kr/main_popup.js\"></script>\n<script type=\"text/javascript\" src=\"/js/kr/calendar.js\"></script>\n<script type=\"text/javascript\" src=\"/js/javascript.js\"></script><script type=\"text/javascript\" src=\"/js/ajax/facebox/facebox.js\"></script><link type=\"text/css\" href=\"/js/ajax/facebox/facebox.css\" rel=\"stylesheet\" media=\"all\"><script type=\"text/javascript\" src=\"/js/ajax/lazyload/jquery.lazyload.mini.js\"></script><script type=\"text/javascript\" src=\"/js/ajax/prevImg/humanmsg.js\"></script><link type=\"text/css\" href=\"/js/ajax/prevImg/humanmsg.css\" rel=\"stylesheet\" media=\"all\">\n<script type=\"text/javascript\" src=\"/js/flash.js\"></script>\n<script type=\"text/javascript\">\n<!--\n\t//페이스북\n\tfunction facebookOpen() {\n\t\tvar titl = \"\";\n\t\ttitl = titl.replace ('\"', '&quot;');\n\t\ttitl = titl.replace ('\"', '&quot;');\n\t\ttitl = encodeURIComponent(titl);\n\t\tvar link = encodeURIComponent(\"http://museum.kigam.re.kr/html/kr/\");\n\t\tvar url = \"http://www.facebook.com/sharer.php?u=\" + link + \"&t=\" + titl;\n\t\tsnswindowOpen (url, 900, 450, 'no');\n\t}\n\t//twitter\n\tfunction twitterOpen() {\n\t\tvar titl = \"\";\n\t\ttitl = titl.replace ('\"', '&quot;');\n\t\ttitl = titl.replace ('\"', '&quot;');\n\t\ttitl = encodeURIComponent(titl);\n\t\tvar link = encodeURIComponent(\"http://museum.kigam.re.kr/html/kr/\" );\n\t\tvar url = \"http://twitter.com/share?text=\" + titl + \"&url=\" + link;\n\t\tsnswindowOpen (url, 800, 400, 'yes');\n\t}\n\tfunction snswindowOpen () {\n\t\tvar nUrl; var nWidth; var nHeight; var nLeft; var nTop; var nScroll;\n\t\tnUrl = arguments[0];\n\t\tnWidth = arguments[1];\n\t\tnHeight = arguments[2];\n\t\tnScroll = (arguments.length > 3 ? arguments[3] : \"no\");\n\t\tnLeft = (arguments.length > 4 ? arguments[4] : (screen.width/2 - nWidth/2));\n\t\tnTop = (arguments.length > 5 ? arguments[5] : (screen.height/2 - nHeight/2));\n\t\twinopen=window.open(nUrl, 'SNS', \"left=\"+nLeft+\",top=\"+nTop+\",width=\"+nWidth+\",height=\"+nHeight+\",scrollbars=\"+nScroll+\",toolbar=no,location=no,directories=no,status=no,menubar=no,resizable=no\");\n\t}\n//-->\n</script>\n\n\t<script src=\"https://www.google.com/recaptcha/api.js\"></script>\n\n</head>\n<body id=\"total\">\n\t<div id=\"touchArea\"></div>\n\t<div id=\"shadow_device\"></div>\n\t\t\t<!-- 전체영역시작 -->\n\t\t<!-- 스킵네비케이션시작 -->\n\t\t<div id=\"accessibility\" style=\"display: block; top: -62px; width: 1583px; height: 62px;\">\n\t\t\t<a href=\"#mcontent\">본문 바로가기</a>\n\t\t\t<!--<a href=\"#snb\">사이트 메뉴 바로가기</a>-->\n\t\t\t<a href=\"#gnb\">주메뉴 바로가기</a>\n\t\t</div>\n\t\t<!-- 스킵네비케이션끝 -->\n\t\t\t\t\t\t<!-- 헤더시작 -->\n\t\t<div id=\"wrap\" class=\"mwrap\">\n\t\t\n\t\t<div id=\"flowgnb\" style=\"z-index: 100; position: fixed; top: 0px; left: 0px; width: 100%;\">\n\n\t\t<header id=\"header_group\" class=\"clearfix option\">\n\t\t\t<div id=\"top_head\">\n\t\t\t\t<h1 id=\"logo\"><a href=\"/html/kr/\">지질박물관</a></h1>\n\t\t\t\t<div class=\"global\">\n\t\t\t\t\t<ul>\n\t\t\t\t\t\t<li><a href=\"/html/kr\" class=\"tp_icon home\">HOME</a></li>\n\t\t\t\t\t\t<li><a href=\"/html/kr/guide/guide_0701.html\" class=\"tp_icon sitemap\">SITEMAP</a></li>\n\t\t\t\t\t\t<li><a href=\"/eng\" class=\"tp_icon en\">EN</a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<a id=\"open_mn\" class=\"tp_icon\" href=\"#open_mn\">주메뉴 열기</a>\n\t\t\t</div>\n\t\t\t\n\t\t\t<nav id=\"gnb\">\n\t\t\t\t<div id=\"gnbwrap\">\n\t\t\t\t\t<div id=\"animate\" style=\"height: 70px;\">\n\t\t\t\t\t\t<h2 class=\"skip\">주메뉴영역</h2>\n\t\t\t\t\t\t<div id=\"tnb\" class=\"wrapper\">\n\t\t\t\t\t\t\t<ul id=\"tm\">\n\t\t\t\t\t\t\t\t\n\n<li class=\"th1\"><a href=\"/html/kr/sub1/sub1_0101.html\" class=\"th1_lnk current\">소개</a><div id=\"summry1\" class=\"summry\" style=\"display: block;\"><div class=\"tit_gnb\"><h2>소개</h2><span class=\"bg_gnb bg1\"></span><p>시간을 담은 땅의 기록, 지질박물관을 소개합니다.</p></div>\t\t\t\t\t\t \t<div class=\"pre_muse_view\">\n\t\t\t\t\t\t \t\t<a href=\"/_prog/group_app/?site_dvs_cd=kr&amp;menu_dvs_cd=0601\" title=\"지질박물관 견학신청 바로가기\"><img src=\"/images/kr/common/pre_muse_view_ico.png\" alt=\"지질박물관 견학신청 이미지\"></a>\n\t\t\t\t\t\t \t</div><ul class=\"th2\"><li><a href=\"/html/kr/sub1/sub1_0101.html\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0101\"></span></span>인사말</a></li>\n<li><a href=\"/html/kr/sub1/sub1_010201.html\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0102\"></span></span>박물관 소개</a><ul class=\"th3\" style=\"display: none;\">\n                                <!-- <li><a target=\"_blank\" title=\"새창\" onclick=\"window.open(this.href,'','width=1024,height=768,toolbar=no,menubar=no,location=no,status=no');return false;\" href=\"/html/kr/sub1/sub1_010201.html\">설립목적 및 배경</a></li> -->\n                                                                <!-- <li><a target=\"_blank\" title=\"새창\" onclick=\"openwin1('view',this.href,1024,768,1);return false;\" href=\"/html/kr/sub1/sub1_010201.html\">설립목적 및 배경</a></li> -->\n                                <li><a href=\"/html/kr/sub1/sub1_010201.html\">설립목적 및 배경</a></li>\n                                <!-- <li><a target=\"_blank\" title=\"새창\" onclick=\"window.open(this.href,'','width=1024,height=768,toolbar=no,menubar=no,location=no,status=no');return false;\" href=\"/html/kr/sub1/sub1_010202.html\">연혁</a></li> -->\n                                                                <!-- <li><a target=\"_blank\" title=\"새창\" onclick=\"openwin1('view',this.href,1024,768,1);return false;\" href=\"/html/kr/sub1/sub1_010202.html\">연혁</a></li> -->\n                                <li><a href=\"/html/kr/sub1/sub1_010202.html\">연혁</a></li>\n                                <!-- <li><a target=\"_blank\" title=\"새창\" onclick=\"window.open(this.href,'','width=1024,height=768,toolbar=no,menubar=no,location=no,status=no');return false;\" href=\"/html/kr/sub1/sub1_010203.html\">시설규모</a></li> -->\n                                                                <!-- <li><a target=\"_blank\" title=\"새창\" onclick=\"openwin1('view',this.href,1024,768,1);return false;\" href=\"/html/kr/sub1/sub1_010203.html\">시설규모</a></li> -->\n                                <li><a href=\"/html/kr/sub1/sub1_010203.html\">시설규모</a></li>\n</ul>\n</li>\n<li><a href=\"/html/kr/sub1/sub1_0103.html\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0103\"></span></span>오시는 길</a></li>\n</ul>\n                            </div>\n</li>\n<li class=\"th1\"><a href=\"/html/kr/sub2/sub2_0201.html\" class=\"th1_lnk\">전시</a><div id=\"summry2\" class=\"summry\" style=\"display: none;\"><div class=\"tit_gnb\"><h2>전시</h2><span class=\"bg_gnb bg1\"></span><p>지질박물관의 다양한 전시를 즐기고 체험하세요!</p></div>\t\t\t\t\t\t \t<div class=\"pre_muse_view\">\n\t\t\t\t\t\t \t\t<a href=\"/_prog/group_app/?site_dvs_cd=kr&amp;menu_dvs_cd=0601\" title=\"지질박물관 견학신청 바로가기\"><img src=\"/images/kr/common/pre_muse_view_ico.png\" alt=\"지질박물관 견학신청 이미지\"></a>\n\t\t\t\t\t\t \t</div>\n\t\t\t\t\t\t \t<ul class=\"th2\"><li><a href=\"/html/kr/sub2/sub2_0201.html\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0201\"></span></span>Museum Story</a></li>\n<li><a href=\"/html/kr/sub2/sub2_0202.html\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0202\"></span></span>중앙홀</a></li>\n<li><a href=\"/html/kr/sub2/sub2_0203.html\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0203\"></span></span>제1전시관</a></li>\n<li><a href=\"/html/kr/sub2/sub2_0204.html\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0204\"></span></span>제2전시관</a></li>\n<li><a href=\"/html/kr/sub2/sub2_0205.html\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0205\"></span></span>지질과학탐험실</a></li>\n<li><a href=\"/html/kr/sub2/sub2_0206.html\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0206\"></span></span>지질과학교육실</a></li>\n<li><a href=\"/html/kr/sub2/sub2_0207.html\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0207\"></span></span>나들길</a></li>\n<li><a href=\"/html/kr/sub2/sub2_0208.html\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0208\"></span></span>야외전시장</a></li>\n<li><a href=\"/_prog/_board/?code=sub02_020901&amp;site_dvs_cd=kr&amp;menu_dvs_cd=020901\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0209\"></span></span>기타시설</a><ul class=\"th3\" style=\"display: none;\">\n                                <!-- <li><a target=\"_blank\" title=\"새창\" onclick=\"window.open(this.href,'','width=1024,height=768,toolbar=no,menubar=no,location=no,status=no');return false;\" href=\"/_prog/_board/?code=sub02_020901&amp;site_dvs_cd=kr&amp;menu_dvs_cd=020901\">기획전시실</a></li> -->\n                                                                <!-- <li><a target=\"_blank\" title=\"새창\" onclick=\"openwin1('view',this.href,1024,768,1);return false;\" href=\"/_prog/_board/?code=sub02_020901&amp;site_dvs_cd=kr&amp;menu_dvs_cd=020901\">기획전시실</a></li> -->\n                                <li><a href=\"/_prog/_board/?code=sub02_020901&amp;site_dvs_cd=kr&amp;menu_dvs_cd=020901\">기획전시실</a></li>\n                                <!-- <li><a target=\"_blank\" title=\"새창\" onclick=\"window.open(this.href,'','width=1024,height=768,toolbar=no,menubar=no,location=no,status=no');return false;\" href=\"/html/kr/sub2/sub2_020902.html\">영상실</a></li> -->\n                                                                <!-- <li><a target=\"_blank\" title=\"새창\" onclick=\"openwin1('view',this.href,1024,768,1);return false;\" href=\"/html/kr/sub2/sub2_020902.html\">영상실</a></li> -->\n                                <li><a href=\"/html/kr/sub2/sub2_020902.html\">영상실</a></li>\n                                <!-- <li><a target=\"_blank\" title=\"새창\" onclick=\"window.open(this.href,'','width=1024,height=768,toolbar=no,menubar=no,location=no,status=no');return false;\" href=\"/html/kr/sub2/sub2_020904.html\">지질시료동</a></li> -->\n                                                                <!-- <li><a target=\"_blank\" title=\"새창\" onclick=\"openwin1('view',this.href,1024,768,1);return false;\" href=\"/html/kr/sub2/sub2_020904.html\">지질시료동</a></li> -->\n                                <li><a href=\"/html/kr/sub2/sub2_020904.html\">지질시료동</a></li>\n</ul>\n</li>\n</ul>\n                            </div>\n</li>\n<li class=\"th1\"><a href=\"/html/kr/sub3/sub3_0301.html\" class=\"th1_lnk\">이용</a><div id=\"summry3\" class=\"summry\" style=\"display: none;\"><div class=\"tit_gnb\"><h2>이용</h2><span class=\"bg_gnb bg1\"></span><p>지질박물관 관람안내 및 편의시설을 안내합니다.</p></div>\t\t\t\t\t\t \t<div class=\"pre_muse_view\">\n\t\t\t\t\t\t \t\t<a href=\"/_prog/group_app/?site_dvs_cd=kr&amp;menu_dvs_cd=0601\" title=\"지질박물관 견학신청 바로가기\"><img src=\"/images/kr/common/pre_muse_view_ico.png\" alt=\"지질박물관 견학신청 이미지\"></a>\n\t\t\t\t\t\t \t</div><ul class=\"th2\"><li><a href=\"/html/kr/sub3/sub3_0301.html\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0301\"></span></span>관람안내</a></li>\n<li><a href=\"/html/kr/sub3/sub3_0302.html\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0302\"></span></span>편의시설</a></li>\n<li><a href=\"/html/kr/sub3/sub3_0303.html\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0303\"></span></span>전시해설안내시스템</a></li>\n</ul>\n                            </div>\n</li>\n<li class=\"th1\"><a href=\"/_prog/_board/?code=sub04_0401&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0401\" class=\"th1_lnk\">참여</a><div id=\"summry4\" class=\"summry\" style=\"display: none;\"><div class=\"tit_gnb\"><h2>참여</h2><span class=\"bg_gnb bg1\"></span><p>지질박물관의 이야기에 참여하세요!</p></div>\t\t\t\t\t\t \t<div class=\"pre_muse_view\">\n\t\t\t\t\t\t \t\t<a href=\"/_prog/group_app/?site_dvs_cd=kr&amp;menu_dvs_cd=0601\" title=\"지질박물관 견학신청 바로가기\"><img src=\"/images/kr/common/pre_muse_view_ico.png\" alt=\"지질박물관 견학신청 이미지\"></a>\n\t\t\t\t\t\t \t</div><ul class=\"th2\"><li><a href=\"/_prog/_board/?code=sub04_0401&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0401\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0401\"></span></span>관람후기</a></li>\n<li><a href=\"/_prog/_board/?code=sub04_0402&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0402\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0402\"></span></span>문의게시판</a></li>\n<li><a href=\"/_prog/_board/?code=sub04_0403&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0403\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0403\"></span></span>행사사진</a></li>\n<li><a href=\"/html/kr/sub4/sub4_0404.html\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0404\"></span></span>자원봉사신청</a></li>\n</ul>\n                            </div>\n</li>\n<li class=\"th1\"><a href=\"/_prog/_board/?code=sub05_0501&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0501\" class=\"th1_lnk\">알림</a><div id=\"summry5\" class=\"summry\" style=\"display: none;\"><div class=\"tit_gnb\"><h2>알림</h2><span class=\"bg_gnb bg1\"></span><p>시간을 담은 땅의 기록, 지질박물관에서 알립니다.</p></div>\t\t\t\t\t\t \t<div class=\"pre_muse_view\">\n\t\t\t\t\t\t \t\t<a href=\"/_prog/group_app/?site_dvs_cd=kr&amp;menu_dvs_cd=0601\" title=\"지질박물관 견학신청 바로가기\"><img src=\"/images/kr/common/pre_muse_view_ico.png\" alt=\"지질박물관 견학신청 이미지\"></a>\n\t\t\t\t\t\t \t</div><ul class=\"th2\"><li><a href=\"/_prog/_board/?code=sub05_0501&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0501\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0501\"></span></span>공지사항</a></li>\n<li><a href=\"/_prog/_board/?code=sub05_0502&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0502\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0502\"></span></span>체험학습지</a></li>\n<li><a href=\"/_prog/publish/?site_dvs_cd=kr&amp;menu_dvs_cd=0503\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0503\"></span></span>발간도서</a></li>\n<li><a href=\"/html/kr/sub5/sub5_0504.html\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0504\"></span></span>관련사이트</a></li>\n</ul>\n                            </div>\n</li>\n<li class=\"th1\"><a href=\"/_prog/group_app/?site_dvs_cd=kr&amp;menu_dvs_cd=0601\" class=\"th1_lnk\">예약</a><div id=\"summry6\" class=\"summry\" style=\"display: none;\"><div class=\"tit_gnb\"><h2>알림</h2><span class=\"bg_gnb bg1\"></span><p>지질박물관의 관람예약 및 예약확인을 하세요!</p></div>\t\t\t\t\t\t \t<div class=\"pre_muse_view\">\n\t\t\t\t\t\t \t\t<a href=\"/_prog/group_app/?site_dvs_cd=kr&amp;menu_dvs_cd=0601\" title=\"지질박물관 견학신청 바로가기\"><img src=\"/images/kr/common/pre_muse_view_ico.png\" alt=\"지질박물관 견학신청 이미지\"></a>\n\t\t\t\t\t\t \t</div><ul class=\"th2\"><li><a href=\"/_prog/group_app/?site_dvs_cd=kr&amp;menu_dvs_cd=0601\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0601\"></span></span>관람예약</a></li>\n<li><a href=\"/_prog/group_app/?mode=AL&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0602\" class=\"th2_lnk th2_lnk\"><span class=\"round\"><span class=\"icon_0602\"></span></span>예약확인</a></li>\n</ul>\n                            </div>\n</li>\n\n\t\t\t\t\t\t\t</ul>\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t<div id=\"flower\" style=\"left: 0px; width: 95px;\"></div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</nav>\n\n\n\t\t\t<script type=\"text/javascript\">\n\t\t\t(function(){\n\n\t\t\t\tvar param = \"#gnb\",\n\t\t\t\t\tobj = \".summry\",\n\t\t\t\t\tbtn = \".th1>a\",\n\t\t\t\t\twrap = \"#animate\",\n\t\t\t\t\telem = \"1\",\n\t\t\t\t\tdur = 300,\n\t\t\t\t\tmeth = \"easeOutCubic\",\n\t\t\t\t\tmno = \"\";\n\n\t\t\t\tgnb(param,obj,btn,wrap,elem,dur,meth,mno);\n\n\t\t\t\tflowerbar(\"#tnb\",\"#flower\",\".th1>a\",\"1\");\n\n\t\t\t}());\n\t\t\t</script>\n\t\t</header>\n\n\t\t</div>\n\t<hr>\n\n\n\t\t<nav id=\"topmenu\">\n\t\t\t<h1 class=\"skip\"><a href=\"/html/kr/\">지질박물관</a></h1>\n\t\t\t<div class=\"m_global\">\n\t\t\t\t<a href=\"/html/kr\" class=\"g_btn home\">HOME</a>\n\t\t\t\t<a href=\"/html/kr/guide/guide_0701.html\" class=\"g_btn sitemap\">SITEMAP</a>\n\t\t\t\t<a href=\"#\" class=\"g_btn en\">EN</a>\n\t\t\t\t<a href=\"#\" class=\"tp_icon\" id=\"close_topmenu\">메뉴 닫기</a>\n\t\t\t</div>\n\t\t\t<ul id=\"gnb_device\">\n\t\t\t\t\n<li class=\"th1\"><a href=\"/html/kr/sub1/sub1_0101.html\" class=\"th1_lnk\">소개</a><b>소개</b><ul class=\"th2\" style=\"display: none;\">\n<li><a href=\"/html/kr/sub1/sub1_0101.html\" class=\"\">인사말</a></li><li><a href=\"/html/kr/sub1/sub1_010201.html\" class=\"\">박물관 소개</a><ul class=\"th3\" style=\"display: none;\">\n<li><a href=\"/html/kr/sub1/sub1_010201.html\">설립목적 및 배경</a></li>\n<li><a href=\"/html/kr/sub1/sub1_010202.html\">연혁</a></li>\n<li><a href=\"/html/kr/sub1/sub1_010203.html\">시설규모</a></li>\n</ul>\n</li><li><a href=\"/html/kr/sub1/sub1_0103.html\" class=\"\">오시는 길</a></li></ul>\n</li>\n<li class=\"th1\"><a href=\"/html/kr/sub2/sub2_0201.html\" class=\"th1_lnk\">전시</a><b>전시</b><ul class=\"th2\" style=\"display: none;\">\n<li><a href=\"/html/kr/sub2/sub2_0201.html\" class=\"\">Museum Story</a></li><li><a href=\"/html/kr/sub2/sub2_0202.html\" class=\"\">중앙홀</a></li><li><a href=\"/html/kr/sub2/sub2_0203.html\" class=\"\">제1전시관</a></li><li><a href=\"/html/kr/sub2/sub2_0204.html\" class=\"\">제2전시관</a></li><li><a href=\"/html/kr/sub2/sub2_0205.html\" class=\"\">지질과학탐험실</a></li><li><a href=\"/html/kr/sub2/sub2_0206.html\" class=\"\">지질과학교육실</a></li><li><a href=\"/html/kr/sub2/sub2_0207.html\" class=\"\">나들길</a></li><li><a href=\"/html/kr/sub2/sub2_0208.html\" class=\"\">야외전시장</a></li><li><a href=\"/_prog/_board/?code=sub02_020901&amp;site_dvs_cd=kr&amp;menu_dvs_cd=020901\" class=\"\">기타시설</a><ul class=\"th3\" style=\"display: none;\">\n<li><a href=\"/_prog/_board/?code=sub02_020901&amp;site_dvs_cd=kr&amp;menu_dvs_cd=020901\">기획전시실</a></li>\n<li><a href=\"/html/kr/sub2/sub2_020902.html\">영상실</a></li>\n<li><a href=\"/html/kr/sub2/sub2_020904.html\">지질시료동</a></li>\n</ul>\n</li></ul>\n</li>\n<li class=\"th1\"><a href=\"/html/kr/sub3/sub3_0301.html\" class=\"th1_lnk\">이용</a><b>이용</b><ul class=\"th2\" style=\"display: none;\">\n<li><a href=\"/html/kr/sub3/sub3_0301.html\" class=\"\">관람안내</a></li><li><a href=\"/html/kr/sub3/sub3_0302.html\" class=\"\">편의시설</a></li><li><a href=\"/html/kr/sub3/sub3_0303.html\" class=\"\">전시해설안내시스템</a></li></ul>\n</li>\n<li class=\"th1\"><a href=\"/_prog/_board/?code=sub04_0401&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0401\" class=\"th1_lnk\">참여</a><b>참여</b><ul class=\"th2\" style=\"display: none;\">\n<li><a href=\"/_prog/_board/?code=sub04_0401&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0401\" class=\"\">관람후기</a></li><li><a href=\"/_prog/_board/?code=sub04_0402&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0402\" class=\"\">문의게시판</a></li><li><a href=\"/_prog/_board/?code=sub04_0403&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0403\" class=\"\">행사사진</a></li><li><a href=\"/html/kr/sub4/sub4_0404.html\" class=\"\">자원봉사신청</a></li></ul>\n</li>\n<li class=\"th1\"><a href=\"/_prog/_board/?code=sub05_0501&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0501\" class=\"th1_lnk\">알림</a><b>알림</b><ul class=\"th2\" style=\"display: none;\">\n<li><a href=\"/_prog/_board/?code=sub05_0501&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0501\" class=\"\">공지사항</a></li><li><a href=\"/_prog/_board/?code=sub05_0502&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0502\" class=\"\">체험학습지</a></li><li><a href=\"/_prog/publish/?site_dvs_cd=kr&amp;menu_dvs_cd=0503\" class=\"\">발간도서</a></li><li><a href=\"/html/kr/sub5/sub5_0504.html\" class=\"\">관련사이트</a></li></ul>\n</li>\n<li class=\"th1\"><a href=\"/_prog/group_app/?site_dvs_cd=kr&amp;menu_dvs_cd=0601\" class=\"th1_lnk ov\">예약</a><b>예약</b><ul class=\"th2\" style=\"display: block;\">\n<li><a href=\"/_prog/group_app/?site_dvs_cd=kr&amp;menu_dvs_cd=0601\" class=\"\">관람예약</a></li><li><a href=\"/_prog/group_app/?mode=AL&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0602\" class=\"\">예약확인</a></li></ul>\n</li>\n\t\t\t</ul>\n\t\t</nav>\n\t\t<script type=\"text/javascript\">\n\t\t(function(){\n\n\t\t\tvar ismain = \"\";\n\n\t\t\tvar param = \"#topmenu\";\n\t\t\tvar obj = \"#wrap\";\n\t\t\tvar btn = \"#open_mn\";\n\t\t\tvar index1 = ismain.substr(0,2); // th1 메뉴코드, index로 사용\n\t\t\tvar index2 = ismain.substr(2,4); // th2 메뉴코드, index로 사용\n\t\t\tvar index3 = ismain.substr(4,6); // th3 메뉴코드, index로 사용\n\t\t\tvar dur = 300; // 애니메이션 진행 속도\n\t\t\tvar meth = \"easeOutExpo\"; // 애니메이션 진행 타입\n\t\t\t\n\t\t\tgnb_open(param,obj,btn,index1,index2,index3,dur,meth,ismain);\n\n\t\t}());\n\t\t</script>\n       \n       \t\t\t<p class=\"m_info\"><span class=\"micon i1\"></span><strong>관람시간</strong><em>10:00~17:00</em></p>\n\t\t       \n       \n       \n        \n\n\t<!-- 서브시작 -->\n\t\n<script type=\"text/javascript\">\n\tfunction slide_snsbtn(){\n\t\tvar param = $(\"#location\");\n\t\tvar obj = param.find(\"#naviSNS\");\n\t\tvar btn = param.find(\"#sns_slide\");\n\t\tobj.css({\"display\":\"none\",\"position\":\"absolute\",\"top\":\"0\",\"right\":\"-75px\"});\n\t\tbtn.unbind().bind(\"click touchend\",function(event){\n\t\t\tif(obj.css(\"display\") == \"none\"){\n\t\t\t\t//obj.css({\"z-index\":\"-1\"});\n\t\t\t\tobj.show().stop(true,false).animate({top:0},{duration:0,easing:\"easeOutCubic\"});\n\t\t\t\tbtn.addClass(\"ov\");\n\t\t\t\t//$(\"#searchkeyword\").focus();\n\t\t\t}else{\n\t\t\t\t//obj.css({\"z-index\":\"-1\"});\n\t\t\t\tobj.hide().stop(true,false).animate({top:0},{duration:0,easing:\"easeOutCubic\"});\n\t\t\t\tbtn.removeClass(\"ov\");\n\t\t\t}\n\t\t\tevent.preventDefault();\n\t\t\tevent.stopPropagation();\n\t\t});\n\n\n\n\t}\n\tslide_snsbtn();\n</script>\n\n\n\t\t<!-- 탭메뉴 및 좌측메뉴 펼침기능 시작 부분 -->\n\t\t\t\t<!-- 탭메뉴 및 좌측메뉴 펼침기능 종료 부분 --><div id=\"mcontent\" class=\"clearfix\">\n\t<div id=\"mnav\" style=\"\" class=\"action\">\n\t\t<a href=\"#mvisual\" class=\"mn_icon nico1 ov\">비쥬얼 영역 이동</a>\n\t\t<a href=\"#mstory\" class=\"mn_icon nico2\">주요 프로그램 안내 영역 이동</a>\n\t\t<a href=\"#mtour\" class=\"mn_icon nico3\">함께하는 E-지용제 영역 이동</a>\n\t\t<a href=\"#mnews\" class=\"mn_icon nico4\">시인 정지용 영역 이동</a>\n\t</div>\n\t<div id=\"mvisual\">\n\t\t<div class=\"c_wrap\">\n\t\t\t<div class=\"wrapper\">\n\t\t\t\t<div class=\"control\">\n\t\t\t\t\t<button type=\"button\" data-type=\"stop\">비주얼 멈춤</button>\n\t\t\t\t\t<button type=\"button\" data-type=\"play\" style=\"display: none;\">비주얼 시작</button>\n\t\t\t\t\t<button type=\"button\" class=\"prev\" data-type=\"prev\">이전 비주얼 보기</button>\n\t\t\t\t\t<button type=\"button\" class=\"next\" data-type=\"next\">다음 비주얼 보기</button>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<span class=\"pnote\"><button type=\"button\" class=\"go-ir ov\">1</button>\n<button type=\"button\" class=\"go-ir\">2</button>\n<button type=\"button\" class=\"go-ir\">3</button>\n<button type=\"button\" class=\"go-ir\">4</button>\n</span>\n\t\t</div>\n\t\t<!--<p class=\"pnote\"><em><a href=\"#\">1</a></em><em><a href=\"#\">2</a></em><em><a href=\"#\">3</a></em><em><a href=\"#\">4</a></em></p>-->\n\t\t<div class=\"grap\">\n\t\t\t<div class=\"obj\">\n\t\t\t\t<div class=\"item img01\" style=\"display: block;\">\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<div class=\"txt_box\">\n\t\t\t\t\t\t\t<strong>GEOLOGICAL M U S E U M</strong>\n\t\t\t\t\t\t\t<h3>시간을 담은 땅의기록</h3>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"item img02\" style=\"display: none;\">\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<div class=\"txt_box\">\n\t\t\t\t\t\t\t<strong>GEOLOGICAL<span>M U S E U M</span></strong>\n\t\t\t\t\t\t\t<h3>시간을 담은 땅의기록</h3>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"item img03\" style=\"display: none;\">\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<div class=\"txt_box\">\n\t\t\t\t\t\t\t<strong>GEOLOGICAL<span>M U S E U M</span></strong>\n\t\t\t\t\t\t\t<h3>시간을 담은 땅의기록</h3>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"item img04\" style=\"display: none;\">\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<div class=\"txt_box\">\n\t\t\t\t\t\t\t<strong>GEOLOGICAL<span>M U S E U M</span></strong>\n\t\t\t\t\t\t\t<h3>시간을 담은 땅의기록</h3>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<!-- obj end -->\n\t\t</div>\n\t\t<!-- grap end -->\n\t\t<script type=\"text/javascript\">\n\t\t\t$(document).ready(function(){\n\t\t\tvar param = \"#mvisual\";\n\t\t\tvar btn = \".control\";\n\t\t\tvar obj = \".item\";\n\t\t\tvar auto = true;\n\t\t\tvar f = 1000;\n\t\t\tvar s = 5000;\n\t\t\tvar p = {use:true,path:\".pnote\"};\n\t\t\tvar h = true;\n\t\t\tpopzone(param,btn,obj,auto,f,s,p,h);\n\t\t\t});\n\t\t</script>\n\t</div>\n\t<div id=\"mstory\">\n\t\t<h2>museum story</h2>\n\t\t<p><span>시간을 담은 땅의 기록</span> 지질 박물관의 이야기를 시작합니다.</p>\t\t\n\t\t<div class=\"ms_bg\">\n\t\t<article id=\"story\">\n\t\t\t<div class=\"more_view_plus_box\">\n\t\t\t\t<span class=\"ico\"></span><p>클릭하시면 해당 컨텐츠로 이동합니다.</p>\n\t\t\t</div>\n\t\t\t<ul class=\"mstory_list\">\n\t\t\t\t<li class=\"list list1 type1\"><a href=\"/html/kr/sub2/sub2_0202_01.html\"><span class=\"img img01\"></span><b>지구와의 만남</b></a></li>\n\t\t\t\t<li class=\"list list2 type1\"><a href=\"/html/kr/sub2/sub2_0203_02.html\"><span class=\"img img02\"></span><b>생물의 발달</b></a></li>\n\t\t\t\t<li class=\"list list3 type1\"><a href=\"/html/kr/sub2/sub2_0202_06.html\"><span class=\"img img03\"></span><b>공룡시대</b></a></li>\n\t\t\t\t<li class=\"list list4 type2\"><a href=\"/html/kr/sub2/sub2_0204_16.html\"><span class=\"img img04\"></span><b>광물의 존재</b></a></li>\n\t\t\t\t<li class=\"list list5 type2\"><a href=\"/html/kr/sub2/sub2_0204_03.html\"><span class=\"img img05\"></span><b>암석의 종류</b></a></li>\n\t\t\t\t<li class=\"list list6 type2\"><a href=\"/html/kr/sub2/sub2_0204_02.html\"><span class=\"img img06\"></span><b>지질구조</b></a></li>\n\t\t\t</ul>\n\t\t\t<p class=\"more\"><a href=\"#\"><span class=\"icon_plus\"></span>클릭하시면 해당 컨텐츠로 이동합니다.</a></p>\n\t\t</article>\n\t\t</div>\n\t</div>\n\t\n\t\n\t<div id=\"mtour\">\n\t\t<h2>museum tour</h2>\n\t\t<p class=\"tit_txt\"><span>시간을 담은 땅의 기록</span> 지질 박물관으로 여행을 떠나요!</p>\n\t\t<div id=\"ajaxbox\"><div id=\"video_area\">\n    <iframe src=\"https://www.youtube.com/embed/fLBHDB_F3h4\" frameborder=\"0\" allowfullscreen=\"\"></iframe>\n</div></div>\n\t\t<div class=\"tab\">\n\t\t<ul>\n\t\t\t<li class=\"item\">\n\t\t\t\t<a href=\"#mtour\" class=\"tab_ov\">\n\t\t\t\t<span class=\"t_img img01\">\n\t\t\t\t</span>\n\t\t\t\t\t<b>중앙홀</b>\n\t\t\t\t</a>\n\t\t\t</li>\n\t\t\t<li class=\"item\">\n\t\t\t\t<a href=\"#mtour\" class=\"\">\n\t                <span class=\"t_img img02\">\n\t                </span>\n\t                <b>제1전시관</b>\n\t\t\t\t</a>\n            </li>\n            <li class=\"item\">\n\t\t\t\t<a href=\"#mtour\" class=\"\">\n\t                <span class=\"t_img img03\">\n\t                </span>\n\t                <b>제2전시관</b>\n\t\t\t\t</a>\n            </li>\n            <li class=\"item\">\n\t\t\t\t<a href=\"#mtour\" class=\"\">\n\t                <span class=\"t_img img04\">\n\t                </span>\n\t                <b>지질과학탐험실</b>\n\t\t\t\t</a>\n            </li>\n            <li class=\"item\">\n\t\t\t\t<a href=\"#mtour\" class=\"\">\n\t                <span class=\"t_img img05\">\n\t                </span>\n\t                <b>지질과학교육실</b>\n\t\t\t\t</a>\n            </li>\n            <li class=\"item\">\n\t\t\t\t<a href=\"#mtour\" class=\"\">\n\t                <span class=\"t_img img06\">\n\t                </span>\n\t                <b>나들길</b>\n\t\t\t\t</a>\n            </li>\n            <li class=\"item\">\n\t\t\t\t<a href=\"#mtour\" class=\"\">\t\t\t\t\t\n\t                <span class=\"t_img img07\">\n\t                </span>\n\t                <b>야외전시장</b>\n\t\t\t\t</a>\n            </li>\n\t\t\t</ul>\n\t\t</div>\n\t\t<script type=\"text/javascript\">\n\t\t\t$(window).load(function(){\n\t\t\t\tvar param = $(\"#mtour\");\n\t\t\t\tvar btn = param.find(\".tab .item\");\n\t\t\t\tvar obj = $(\"#ajaxbox\");\n\n\t\t\t\tvar elem = 0;\n\t\t\t\t\n\t\t\t\tfunction loader(){\n\t\t\t\t\tvar n = elem+1;\n\t\t\t\t\t$.ajax({\n\t\t\t\t\t\turl:\"/html/kr/ajax/mnews_ajax_\"+n+\".html\",\n\t\t\t\t\t\tsuccess:function(data){\n\t\t\t\t\t\t\tobj.html(data);\n\t\t\t\t\t\t},\n\t\t\t\t\t\terror:function(data){\n\t\t\t\t\t\t\talert(\"Ajax Error\");\n\t\t\t\t\t\t}\n\t\t\t\t\t});\n\t\t\t\t}\n\n\t\t\t\tbtn.click(function(event){\n\t\t\t\t\tvar t = $(this);\n\n\t\t\t\t\telem = t.index();\n\t\t\t\t\tbtn.find(\"a\").removeAttr(\"class\");\n\t\t\t\t\tt.find(\"a\").addClass(\"tab_ov\");\n\n\t\t\t\t\tloader();\n\n\t\t\t\t\tevent.preventDefault();\n\t\t\t\t});\n\n\t\t\t\tloader();\n\t\t\t});\n\t\t</script>\n\t</div>\n\t<div id=\"mnews\">\n\t\t<div class=\"wrapper\">\n\t\t\t<h2>museum news</h2>\n\t\t\t<p class=\"tit_txt\"><span>시간을 담은 땅의 기록</span>지질 박물관의 소식을 전합니다.</p>\n\t\t\t<div class=\"mwrap\">\n\t\t\t\t<article id=\"mnotice\">\n\t\t\t\t\t<h3><span class=\"micon\"></span>공지사항</h3>\n\t\t\t\t\t<!--<div class=\"control\">\n\t\t\t\t\t\t<button class=\"ir micon\" type=\"button\" data-type=\"prev\">이전 공지사항 목록</button><button class=\"ir micon\" type=\"button\" data-type=\"next\">다음 공지사항 목록</button>\n\t\t\t\t\t</div>-->\n\t\t\t\t\t<div class=\"grap\">\n\t\t\t\t\t\t<div class=\"obj\">\n\t\t\t\t\t\t\t\n<a class=\"item type1\" href=\"http://museum.kigam.re.kr/_prog/_board/?code=sub05_0501&amp;mode=V&amp;no=331&amp;upr_ntt_no=331&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0501\">\n\t<div class=\"date\"><span>2017.03<i>14</i></span></div>\n\t<div class=\"pt\">4월 과학의 달 특별강연 안내</div>\n</a>\n<a class=\"item type1\" href=\"http://museum.kigam.re.kr/_prog/_board/?code=sub05_0501&amp;mode=V&amp;no=327&amp;upr_ntt_no=327&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0501\">\n\t<div class=\"date\"><span>2017.02<i>25</i></span></div>\n\t<div class=\"pt\">[공지]주말 전시해설 시간변경 안내</div>\n</a>\n<a class=\"item type1\" href=\"http://museum.kigam.re.kr/_prog/_board/?code=sub05_0501&amp;mode=V&amp;no=326&amp;upr_ntt_no=326&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0501\">\n\t<div class=\"date\"><span>2017.02<i>21</i></span></div>\n\t<div class=\"pt\">[공지]2017년 체험관 주말 이용시간 변경안내</div>\n</a>\n<a class=\"item type1\" href=\"http://museum.kigam.re.kr/_prog/_board/?code=sub05_0501&amp;mode=V&amp;no=325&amp;upr_ntt_no=325&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0501\">\n\t<div class=\"date\"><span>2017.02<i>18</i></span></div>\n\t<div class=\"pt\">[2월 26일-3월 31일]영상실 DVD 프로그램 안내</div>\n</a>\t\n\t\t\t\t\t\t\t<!-- <a class=\"item type1\" href=\"#\">\n\t\t\t\t\t\t\t\t<div class=\"date\"><span>2016.01 <i>22</i></span></div>\n\t\t\t\t\t\t\t\t<div class=\"pt\">\n\t\t\t\t\t\t\t\t\t[5월03일~7월09일]영상실 \n\t\t\t\t\t\t\t\t\tDVD 프로그램 안내\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t<a class=\"item type2\" href=\"#\">\n\t\t\t\t\t\t\t\t<div class=\"date\"><span>2016.01 <i>19</i></span></div>\n\t\t\t\t\t\t\t\t<div class=\"pt\">\n\t\t\t\t\t\t\t\t\t[5월03일~7월09일]영상실 \n\t\t\t\t\t\t\t\t\tDVD 프로그램 안내\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t<a class=\"item type1\" href=\"#\">\n\t\t\t\t\t\t\t\t<div class=\"date\"><span>2016.01 <i>19</i></span></div>\n\t\t\t\t\t\t\t\t<div class=\"pt\">\n\t\t\t\t\t\t\t\t\t[5월03일~7월09일]영상실 \n\t\t\t\t\t\t\t\t\tDVD 프로그램 안내\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t<a class=\"item type2\" href=\"#\">\n\t\t\t\t\t\t\t\t<div class=\"date\"><span>2016.01 <i>14</i></span></div>\n\t\t\t\t\t\t\t\t<div class=\"pt\">\n\t\t\t\t\t\t\t\t\t[5월03일~7월09일]영상실 \n\t\t\t\t\t\t\t\t\tDVD 프로그램 안내\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</a> -->\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<a class=\"more\" href=\"/_prog/_board/?code=sub05_0501&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0501\">READ MORE</a>\n\t\t\t\t</article>\n\t\t\t\t<article id=\"mreservation\">\n\t\t\t\t\t<h3>관람예약</h3>\n\t\t\t\t\t<p>지질박물관 관람을 원하시는 분은 <span>예약을 신청해주세요.</span></p>\n\t\t\t\t\t<p class=\"more\"><a href=\"/_prog/group_app/?site_dvs_cd=kr&amp;menu_dvs_cd=0601\">MORE</a></p>\n\t\t\t\t</article>\n\t\t\t\t<article id=\"mlink\">\n\t\t\t\t\t<h3>QUICK LINK</h3>\n\t\t\t\t\t<div class=\"obj\">\n\t\t\t\t\t\t<ul class=\"item\">\n\t\t\t\t\t\t\t<li><a href=\"http://museum.kigam.re.kr/child/\" target=\"_blank\"><span>어린이 박물관</span></a></li>\n\t\t\t\t\t\t\t<li><a href=\"http://museum.kigam.re.kr/imagedb/main.do\" target=\"_blank\"><span>지질표본 이미지포털</span></a></li>\n\t\t\t\t\t\t\t<li><a href=\"/html/kr/sub4/sub4_0404.html\"><span>자원봉사신청</span></a></li>\n\t\t\t\t\t\t\t<li><a href=\"/_prog/_board/?code=sub04_0402&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0402\"><span>문의게시판</span></a></li>\n\t\t\t\t\t\t\t<li><a href=\"/_prog/_board/?code=sub05_0502&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0502\"><span>체험학습지</span></a></li>\n\t\t\t\t\t\t\t<li><a href=\"/html/kr/sub1/sub1_0103.html\"><span>오시는길</span></a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t</article>\n\t\t\t</div>\n\t\t\t<div id=\"guide_wrap\">\n\t\t\t\t<article id=\"g_review\">\n\t\t\t\t\t<h3>관람후기</h3>\n\t\t\t\t\t<p>지질박물관에서 즐거운 시간을 가지셨나요?<span>방문 후의 느낌이나 소감을 올려주세요</span></p>\n\t\t\t\t\t<p class=\"more\"><a href=\"/_prog/_board/?code=sub04_0401&amp;site_dvs_cd=kr&amp;menu_dvs_cd=0401\">MORE<span class=\"more_arr\"></span></a></p>\n\t\t\t\t</article>\n\t\t\t\t<article id=\"g_info\">\n\t\t\t\t\t<h3>관람안내</h3>\n\t\t\t\t\t<ul>\n\t\t\t\t\t\t<li><b>관람시간</b><em>오전 10:00 ~ 오후 05:00(16시 30분까지 입장)</em></li>\n\t\t\t\t\t\t<li><b>휴관일</b><em>매주 월요일, 법정공휴일 다음날, 1월1일, 설날과 추석 연휴, 근로자의 날, 창립기념일(5월 10일), 임시공휴일</em></li>\n\t\t\t\t\t\t<li><b>주차비</b><em>무료</em></li>\n\t\t\t\t\t</ul>\n\t\t\t\t\t<p class=\"more\"><a href=\"/html/kr/sub3/sub3_0301.html\">MORE</a></p>\n\t\t\t\t</article>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t\n\t\t\t<div id=\"open_popup_wrap\">\n\t\t\t\t<div class=\"pop_close\">\n\t\t\t\t\t<form name=\"pop_close\">\n\t\t\t\t\t\t<h2><em class=\"tabletview\">지질 박물관 </em>소식</h2>\n\t\t\t\t\t\t<span class=\"today_close\">\n\t\t\t\t\t\t\t<input type=\"checkbox\" id=\"today_close\" name=\"today_close\"><label for=\"today_close\">1일간 열지 않음</label>\n\t\t\t\t\t\t</span>\n\t\t\t\t\t<input type=\"hidden\" name=\"__encrypted\" value=\"h-K11udxyq4JqS-6ZLXYhJYN6R8rMlHTSKITUntD*FM.\"></form>\n\t\t\t\t\t<a href=\"#chkbox2\" class=\"pop_btn\" style=\"display: none;\">팝업존 열기</a>\n\t\t\t\t\t<a href=\"#chkbox2\" class=\"pop_btn_x\">팝업존 닫기</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"open_popup\" style=\"display: block; height: 160px;\">\n\t\t\t\t\t<div class=\"control\">\n\t\t\t\t\t\t<a data-control=\"prev\" href=\"#slide_pop_list\" class=\"mn_icon prev_btn\" title=\"팝업존안에서 이전으로\">팝업존안에서 이전으로</a>\n\t\t\t\t\t\t<a data-control=\"next\" href=\"#slide_pop_list\" class=\"mn_icon next_btn\" title=\"팝업존안에서 다음으로\">팝업존안에서 다음으로</a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t<!-- mnews end -->   \n</div>\n\n\n<script type=\"text/javascript\">\n(function(){\n\tvar mnav = $(\"#mnav\");\n\n\tvar mv = $(\"#mvisual\");\n\n\tmv.paging = mv.find(\".paging\");\n\tmv.h2 = mv.find(\"h2\");\n\tmv.a = mv.find(\"#animatewrap .control a\");\n\tmv.mn_icon = mv.find(\">.mn_icon\");\n\n\n//----- 진입 이벤트\n\t\n\t$(window).load(function(){\n\n\t\t\n\n\t\tmnav.addClass(\"action\");\n\n\t\tmv.paging.addClass(\"action\");\n\n\t\tmv.h2.addClass(\"action\");\n\n\t\tmv.a.addClass(\"action\");\n\n\t\tmv.mn_icon.addClass(\"action\");\n\n\t\tsetTimeout(mvisual,300);\n\n\t\tmquick();\n\n\n\t});\n\n\tmnav.item = mnav.find(\"a\");\n\n\tmnav.ytop = function(){\n\t\tvar array = new Array();\n\n\t\t$.each(mnav.item,function(index){\n\t\t\tvar p = $($(this).attr(\"href\"));\n\t\t\tarray[index] = p.offset().top-$(\"#flowgnb\").height();\n\n\t\t});\n\n\t\treturn array;\n\t};\n\n\tmnav.ybottom = function(){\n\t\tvar array = new Array();\n\n\t\t$.each(mnav.item,function(index){\n\t\t\tvar p = $($(this).attr(\"href\"));\n\t\t\tarray[index] = p.offset().top-$(\"#flowgnb\").height();\n\n\t\t});\n\n\t\treturn array;\n\t};\n\n//-----\n\n\t\n\tfunction mprogram(){\n\t    $(\"#mstory\").addClass(\"action\");\n\n\t    return true;\n\t}\n\n\tfunction mcommu(){\n\t    $(\"#mtour\").addClass(\"action\");\n\n\t    return true;\n\t}\n\n\tfunction mjiyong(){\n\t    $(\"#mnews\").addClass(\"action\");\n\n\t    return true;\n\t}\n\n\tfunction movement(t,e,s){\n\t\tif(e.type === \"click\"){\n\t\t\tmnav.key = 0;\n\t\t\t\n\t\t\tmnav.result = (t === 0) ? 0 : mnav.ytop()[t];\n\t\t\n\t\t\t$(\"html,body\").stop(true,false).animate({scrollTop:mnav.result},300,\"easeInOutCubic\");\n\n\t\t}\n\n\t\tif(e.type === \"scroll\"){\n\t\t\tmnav.item.removeClass(\"ov\").eq(mnav.key).addClass(\"ov\");\n\n\t\t}\n\n\t\tif(mnav.key == 1){\n\t\t\tmnav.mprogram = (mnav.mprogram !== true) ? mprogram() : true;\n\n\t\t}\n\n\t\tif(mnav.key == 2){\n\t\t\tmnav.mcommu = (mnav.mcommu !== true) ? mcommu() : true;\n\n\t\t}\n\n\t\tif(mnav.key == 3){\n\t\t\tmnav.mjiyong = (mnav.mjiyong !== true) ? mjiyong() : true;\n\n\t\t}\n\n\t\treturn true;\n\t}\n\n//-----\n\n\tfunction _click(event){\n\t\tvar t = $(this);\n\t\tmovement(t.index(),event);\n\t\tevent.preventDefault();\n\n\t}\n\n\tmnav.item.on(\"click\",_click);\n\n//-----\n\n\tmnav.key = 0;\n\t\n\tfunction _scroll(event){\n\t\tvar t = $(this);\n\t\tvar tscroll = t.scrollTop();\n\n\t\tfor(var i=0; i<mnav.ybottom().length; i++){\n\t\t\tif($(window).height()/2 > (mnav.ybottom()[i]-tscroll)){\n\t\t\t\tif(i > mnav.key){\n\t\t\t\t\tmnav.key = i;\n\t\t\t\t\tbreak;\n\t\t\t\t}else{\n\t\t\t\t\tcontinue;\n\t\t\t\t}\n\n\t\t\t}else{\n\t\t\t\tif((i-1) < mnav.key){\n\t\t\t\t\tmnav.key = (i-1);\n\t\t\t\t\tbreak;\n\t\t\t\t}else{\n\t\t\t\t\tcontinue;\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\tmovement(mnav.key,event,tscroll);\n\n\t\treturn true;\n\t}\n\n\t$(window).on(\"scroll\",_scroll);\n\n//-----\n\n\n}());\n</script>\n<!-- mcontent end -->\n\n<div class=\"top_btn\">\t\n\t<a href=\"#middle\" class=\"gotoTop\"><img src=\"/images/kr/common/topbtn_ico.png\" alt=\"맨 위로\"></a>\n</div>\n\n<footer id=\"footer_group\">\n\t<div class=\"wrapper\">\n\t\t<section class=\"finfo\">\n\t\t\t<div class=\"footer_top\">\n\t\t\t\t<div class=\"family\">\n\t\t\t\t\t<strong><a href=\"#\">유관기관링크</a></strong>\n\t\t\t\t\t<div class=\"obj\" style=\"display: none;\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"http://www.kigam.re.kr/\" target=\"_blank\" title=\"새창열림\">한국지질자원연구원</a></li>\n\t\t\t\t\t\t\t<li><a href=\"http://star.metro.daejeon.kr/\" target=\"_blank\" title=\"새창열림\">대전시민천문대</a></li>\n\t\t\t\t\t\t\t<li><a href=\"http://www.daejeon.go.kr/\" target=\"_blank\" title=\"새창열림\">대전광역시청</a></li>\n\t\t\t\t\t\t\t<li><a href=\"http://www.science.go.kr/\" target=\"_blank\" title=\"새창열림\">국립중앙과학관</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"sns_ico\">\n\t\t\t\t\t<span class=\"facebook\"><a href=\"https://www.facebook.com/%EC%A7%80%EC%A7%88%EB%B0%95%EB%AC%BC%EA%B4%80-330205280354029/\" target=\"_blank\" title=\"지질박물관 페이스북 페이지, 새창열림\">지질박물관 페이스북</a></span>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"info_box\">\n\t\t\t\t<span class=\"guide\"><a href=\"/html/kr/guide/guide_0703.html\">개인정보취급방침</a></span>\n\t\t\t\t<span class=\"guide\"><a href=\"/html/kr/guide/guide_0704.html\">이메일집단수집거부</a></span>\n\t\t\t\t<span class=\"guide2\"><a href=\"/html/kr/guide/guide_0702.html\">이용약관</a></span>\n\t\t\t</div>\n\n\t\t\t<address>\n\t\t\t\t<span class=\"address\">34132 대전광역시 유성구 과학로 124 한국지질자원연구원</span>\n\t\t\t\t<span class=\"tel\">TEL.042.868.3797~8</span>\n\t\t\t\t<span class=\"ars\">ARS.042.868.3115</span>\n\t\t\t\t<span class=\"fax\">FAX.042.868.3424</span>\n\t\t\t</address>\n\n\t\t\t<p class=\"copyright\"><span>COPYRIGHT (C) 2016 GEOLOGICAL MUSEUM.</span> ALL RIGHTS RESERVED.</p>\n\t\t</section>\n\t</div>\n</footer>\n\n\n\n\n\n<!--  google analytics ====== 미사용시 삭제=============-->\n<!-- \n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n  ga('create', 'UA-58954317-1', 'auto');\n  ga('send', 'pageview');\n</script> -->\n\n<!--google analytics-->\n\n\n\n\n\n\n\n\n\n\n\n\n<script type=\"text/javascript\">\n<!--\n\t(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n\n\t(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n\n\tm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n\n\t})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\t \n\n\tga('create', 'UA-81704674-1', 'auto');\n\n\tga('send', 'pageview');\n//-->\n</script>\n\n<!-- \n\nArray\n(\n    [sess_return_url] => L2h0bWwva3Iv\n)\n\n --></div><table id=\"humanMsg\" class=\"humanMsg\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">           <tbody>             <tr>               <td class=\"tl\"></td><td class=\"b\"></td><td class=\"tr\"></td>             </tr>             <tr>               <td class=\"b\"></td>               <td class=\"body\" style=\"background:#000\">                 <div class=\"content\" style=\"color:#fff;font-weight:bold\"> \t\t\t\t\t<p></p> \t\t\t\t�̹��� �̸�����                 </div>                 <div class=\"footer\">                 </div>               </td>               <td class=\"b\"></td>             </tr>             <tr>               <td class=\"bl\"></td><td class=\"b\"></td><td class=\"br\"></td>             </tr>           </tbody>         </table><span style=\"border-radius: 3px; text-indent: 20px; width: auto; padding: 0px 4px 0px 0px; text-align: center; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 11px; line-height: 20px; font-family: &quot;Helvetica Neue&quot;, Helvetica, sans-serif; color: rgb(255, 255, 255); background: url(&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjYmQwODFjIj48L3BhdGg+PC9nPjwvc3ZnPg==&quot;) 3px 50% / 14px 14px no-repeat rgb(189, 8, 28); position: absolute; opacity: 1; z-index: 8675309; display: none; cursor: pointer; border: none; -webkit-font-smoothing: antialiased;\">저장</span></body></html>",
+			"settings":
+			{
+				"buffer_size": 41759,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/00_조진경/연습하기/20170324.md",
+			"settings":
+			{
+				"buffer_size": 87,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 24188,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "@charset \"utf-8\";"
+			}
+		},
+		{
+			"file": "css/layout.css",
+			"settings":
+			{
+				"buffer_size": 34151,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/background.cycle.js",
+			"settings":
+			{
+				"buffer_size": 5321,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/topmenu.js",
+			"settings":
+			{
+				"buffer_size": 7322,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/common.css",
+			"settings":
+			{
+				"buffer_size": 3182,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/banner.css",
+			"settings":
+			{
+				"buffer_size": 10454,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/00_조진경/연습하기/css_pulse.css",
+			"settings":
+			{
+				"buffer_size": 1354,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "@import \"nib\""
+			}
+		},
+		{
+			"file": "/C/Users/608/Downloads/animate.css",
+			"settings":
+			{
+				"buffer_size": 72259,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/cjem.ui.RollingBanner.js",
+			"settings":
+			{
+				"buffer_size": 7723,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "$(function(){\n    // 메뉴\n\n    var obj = $(\"#mcontent, #middle\");\n    var gnb = $(\"#flowgnb\");\n    \n    gnb.h = function(){\n        return gnb.height();\n\n    };\n\n    gnb.css({\"z-index\":\"100\",\"position\":\"fixed\",\"top\":\"0\",\"left\":\"0\",\"width\":\"100%\"});\n    //obj.css({\"padding-top\":gnb.h()});\n\n    function _in(event){\n        var t = $(this);\n\n        if($(\"#slide_pop_list>li\").size() > 0){\n\t\t\tt.open = (gnb.h() > $(\"#header_group\").height() ? $(\"#header_group\").height() : $(\".popup_box\").height()+$(\"#header_group\").height());\n\t\t\tobj.stop(true,false).animate({\"padding-top\":t.open},300,\"easeOutCubic\");\n\n        }\n\n        return true;\n    }\n\n    gnb.close = $(\"#open_pop a,#open_popup_wrap .close_btn\");\n    gnb.close.on(\"click\",_in);\n});\n\nfunction flowerbar(param,obj,btn,elem){\n\tvar param = $(param);\n\tvar obj = param.find(obj);\n\tvar btn = param.find(btn);\n\tvar elem = elem-1;\n\tvar n = elem;\n\n\tfunction _current(t,e){\n\t\tif(e == \"mouseleave\" || e == \"focusout\"){\n\t\t\telem = n;\n\t\t\tt = btn.eq(elem);\n\t\t}\n\n\t\tif(elem < btn.size()){\n\t\t\tvar twidth = (e === undefined ? btn.eq(elem).parent().outerWidth() : t.parent().outerWidth());\n\n\t\t\txpos = (e === undefined ? Math.floor(btn.eq(elem).parent().offset().left) : Math.floor(t.parent().offset().left));\n\t\t\txpos = xpos-Math.floor(param.offset().left);\n\n\t  \t\tobj.stop(true,true).animate({left:xpos,width:twidth},700,\"easeOutExpo\");\n\n  \t\t}\n\n  \t\treturn true;\n  \t}\n\n\tbtn.on(\"mouseenter focusin\",function(event){\n\t\t_current($(this),event.type);\n\n\t});\n\n\t$(\"#header_group\").on(\"mouseleave focusout\",function(event){\n\t\t_current($(this),event.type);\n\n\t});\n\n\t_current();\n}\n\n// 풀다운\nfunction gnb(param,obj,btn,wrap,elem,dur,meth,mno){\n\tvar param = $(param);\n\tvar btn = param.find(btn);\n\tvar obj = param.find(obj);\n\tvar wrap = $(wrap);\n\tvar elem = elem-1; // jsp 메뉴 코드가 1부터 시작하기 때문에\n\tvar old_h = 70;\n\tvar n = elem;\n\n\tvar data = false;\n\n\tvar viewHeight = function viewHeight(){\n        \n        var openHeight = [310,310,310,310,310,310];\n    /*    \n\t\tvar openHeight = new Array();\n\n\t\t$.each(btn,function(e){\n\t\t\topenHeight[e] = 310;//$(this).next().outerHeight(true)+param.outerHeight()+70;\n\n\t\t});\n*/\n\t\treturn openHeight;\n\t}();\n\t$(\"#summry1 .tit_gnb\").prepend(\"<h2>소개</h2><span class='bg_gnb bg1'></span><p>시간을 담은 땅의 기록, 지질박물관을 소개합니다.</p>\");\n\t$(\"#summry2 .tit_gnb\").prepend(\"<h2>전시</h2><span class='bg_gnb bg1'></span><p>지질박물관의 다양한 전시를 즐기고 체험하세요!</p>\");\n\t$(\"#summry3 .tit_gnb\").prepend(\"<h2>이용</h2><span class='bg_gnb bg1'></span><p>지질박물관 관람안내 및 편의시설을 안내합니다.</p>\");\n\t$(\"#summry4 .tit_gnb\").prepend(\"<h2>참여</h2><span class='bg_gnb bg1'></span><p>지질박물관의 이야기에 참여하세요!</p>\");\n\t$(\"#summry5 .tit_gnb\").prepend(\"<h2>알림</h2><span class='bg_gnb bg1'></span><p>시간을 담은 땅의 기록, 지질박물관에서 알립니다.</p>\");\n\t$(\"#summry6 .tit_gnb\").prepend(\"<h2>알림</h2><span class='bg_gnb bg1'></span><p>지질박물관의 관람예약 및 예약확인을 하세요!</p>\");\n\n\tfunction _current(s){ \n\t\tif(!isNaN(s)){\n\t\t\tbtn.eq(s).addClass(\"current\");\n\n\t\t}\n\t}\n\n\n\tfunction _open(h){\n\t\tbtn.not(elem).removeClass(\"current\").eq(elem).addClass(\"current\");\n\t\twrap.stop(true,false).animate({\"height\":viewHeight[elem]+h},dur,meth);\n\n\t\tobj.hide();\n\t\tbtn.eq(elem).next().show();\n\n\t\tdata = true;\n\t\treturn true;\n     \n\t}\n\n\n\tfunction _close(){\n\t\tbtn.removeClass(\"current\");\n\t\twrap.stop(true,false).animate({\"height\":old_h},dur,meth);\n\n\t\tdata = false;\n\t\treturn true;\n\n\t}\n\n\t// -----\n\n\tbtn.on(\"mouseenter focusin\",function(){\n\t\telem = $(this).parent().index();\n\t\t_open(0);\n   $(\"#header_group\").addClass(\"new_bg\");\n\t});\n\n\twrap.on(\"mouseleave\",function(){\n\t\tif(data === false){ return false; }\n\t\t_close();\n\t\t_current(n);\n          $(\"#header_group\").removeClass(\"new_bg\");\n\t});\n\n\tbtn.th2 = param.find(\".th2>li>a\");\n\tbtn.th2.on(\"mouseenter focusin\",function(){\n\t\tparam.find(\".th3\").hide();\n\n\t\tvar t = $(this);\n\n\t\tif(t.next().attr(\"class\") == \"th3\"){\n\t\t\tif(t.next().css(\"display\") != \"block\"){\n\t\t\t\tt.next().show();\n\t\t\t\tt.addClass(\"ov\");\n\n\t\t\t\t//_open(60);\n\t\t\t\t_open();\n\n\t\t\t}\n\t\t}\n\t});\n\n\tbtn.th2.parent().on(\"mouseleave focusout\",function(){\n\t\tvar t = $(this).find(\">a\");\n\n\t\tif(t.next().attr(\"class\") == \"th3\"){\n\t\t\tif(t.next().css(\"display\") == \"block\"){\n\t\t\t\tt.next().hide();\n\t\t\t\tbtn.th2.removeClass(\"ov\");\n\n\t\t\t\t_open(0);\n\n\t\t\t}\n\t\t}\n\t});\n\n\n\t_current(n);\n\n}",
+			"file": "js/topmenu_self.js",
+			"file_size": 4650,
+			"file_write_time": 131347942846410691,
+			"settings":
+			{
+				"buffer_size": 4179,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "@charset \"utf-8\";*\n/* Monoraum JJS 140605 */\n\n/* Common */\nbody,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}\nbody,input,textarea,select,button,table{font-family:'나눔고딕',nanumgothic,'돋움',Dotum,AppleGothic,sans-serif;font-size:12px}\nimg,fieldset{border:0}\nul,ol{list-style:none}\nem,address{font-style:normal}\na{text-decoration:none}\na:hover,a:active,a:focus{text-decoration:underline}\nbutton {overflow:visible;border:0 none;background-color:transparent;cursor:pointer}\n.blind,legend{overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:100px;white-space:nowrap}\n.sp {background:url(../img/sp.png) 0 0 no-repeat}\nbody {z-index:10;position:relative}\nhr {display:none}\n.ly_warn {z-index:20;position:absolute;right:10px;top:10px;width:150px;padding:10px 10px 8px;border:1px solid #ffd200;background:#fffde0;color:#2d2e29;font-size:12px;letter-spacing:-1px;line-height:16px}\n\n\n/* background */\n.bg_l,.bg_r,.bg_l_2,.bg_r_2 {position:absolute;display:block;width:50%}\n.bg_l {height:489px;top:0px;left:-490px;background:url(../img/main_l.jpg) 100% 0 no-repeat}\n.bg_r {height:489px;top:0px;right:0;background:url(../img/main_r.jpg) 490px 0 no-repeat}\n.bg_l_2 {height:50px;bottom:84px;left:-490px;border-top:2px solid #334555;border-bottom:1px solid #eee}\n.bg_r_2 {height:50px;bottom:84px;right:0;border-top:2px solid #334555;border-bottom:1px solid #eee}\n\n/* skip navigation */\n#skip_nav a{position:absolute; top:-500px}\n#skip_nav a:focus, #skip_nav a:active{top:1px;z-index:99999;display:block;width:100%;height:40px;line-height:40px;font-weight:bold;color:#fff;text-align:center;background-color:#334555}\n\n/* layout */\n#container {*zoom:1;overflow:hidden;width:980px;margin:0 auto;background:url(../img/snb_bg.jpg) 0 0 repeat-y}\n#container:after {display:block;clear:both;content:''}\n#content {width:773px;float:left}\n\n/* header */\n#header {position:relative;width:980px;margin:0 auto;height:38px;border-bottom:1px solid #243442;background-color:#334555;*zoom:1}\n#header:after {display:block;clear:both;content:''}\nh1 {float:left;width:83px;height:38px}\nh1 a {display:block;width:83px;height:38px;background-position:0 0}\n.gnb {float:right}\n.gnb li {float:left;display:inline-block;width:65px;height:38px}\n.gnb li a {display:block;width:65px;height:38px;background-position:-86px 0}\n.gnb .bg2 {background-position:-421px 0}\n.gnb .bg3 {background-position:-153px 0}\n.gnb .bg4 {background-position:-220px 0}\n.gnb .bg5 {background-position:-287px 0}\n.gnb .bg6 {background-position:-354px 0}\n.gnb .bg7 {background-position:-421px 0}\n.gnb .gnb_more {width:67px;position:relative}\n.gnb .more {width:67px;background-position:-488px 0}\n.gnb_bx {display:none;z-index:10;position:absolute;top:39px;right:0px;width:692px;height:215px;border:1px solid #718392;border-top:0;background-color:#f9f9f9}\n.gnb_bx ul {*zoom:1;padding:21px 0 21px 0;height:134px;background-color:#fff;border-bottom:1px solid #ececec}\n.gnb_bx ul:after {display:block;clear:both;content:''}\n.gnb_bx li {float:left;padding-left:27px;width:151px;height:134px;border-right:1px solid #ececec}\n.gnb_bx .type2 {padding-left:25px;width:151px}\n.gnb_bx .type3 {padding-left:24px;width:152px}\n.gnb_bx .type4 {padding-left:24px;width:134px;border:0}\n.gnb_bx dt {padding-bottom:17px;font-size:14px;line-height:14px;font-weight:bold;letter-spacing:-1px}\n.gnb_bx dl a {width:134px;height:22px;font-size:13px;line-height:16px;color:#333;letter-spacing:-1px}\n.gnb_bx .ico, .gnb_bx button {font-size:13px;color:#666;letter-spacing:-1px}\n.gnb_bx .ico {float:left;padding:10px 0 0 27px;width:87px;height:26px}\n.gnb_bx .ico .sp {margin:1px 7px 0 0;display:inline-block;width:10px;height:10px;background-position:-98px -184px}\n.gnb_bx button {float:right;padding-left:17px;width:74px;height:38px;text-align:left}\n.gnb_bx button .sp {margin:2px 6px 0 0;width:12px;height:12px;display:inline-block;background-position:-110px -184px;font-size:0;vertical-align:top}\n.gnb_more .on {display:block}\n\n\n/* container */\n/* snb */\n.snb {float:left;width:204px;margin-right:1px;border-left:1px solid #ddd;border-right:1px solid #ddd;background:#fff}\n.snb h2 a {display:block;width:204px;height:120px;background-position:-229px -198px}\n.lst_snb {*zoom:1;width:204px;border-bottom:1px solid #ddd}\n.lst_snb:after {display:block;clear:both;content:''}\n.lst_snb li {position:relative;border-top:1px solid #ddd}\n.lst_snb li a {display:block;padding:18px 0 15px 19px;width:184px;font-size:16px;line-height:16px;color:#4b4b4b;letter-spacing:-1px}\n.lst_snb li a {display:block;padding:18px 0 15px 19px;width:184px;font-size:16px;line-height:16px;color:#4b4b4b;letter-spacing:-1px}\n.lst_snb li a:hover,.lst_snb .on a {text-decoration:none;color:#ed0000;background-color:#fbfbfb}\n.lst_snb li:hover .sp,.lst_snb .on .sp {position:absolute;display:block;width:9px;height:10px;top:21px;right:-9px;background-position:-130px -170px;z-index:10}\n\n\n/* content */\n/* section */\n.section {*zoom:1;float:left;width:773px;height:486px;background:url(../img/slide1.jpg) 50% 0 no-repeat}\n.section:after {display:block;clear:both;content:''}\n.lst_type {*zoom:1;position:relative;float:left;padding:403px 0 36px 38px}\n.lst_type:after {display:block;clear:both;content:''}\n.lst_type li {float:left;padding-left:10px}\n.lst_type li:first-child {padding:0}\n.lst_type li .on {width:33px;background-position:0 -170px}\n.lst_type .sp {display:block;z-index:10;position:relative;width:14px;height:14px;background-position:-35px -170px}\n.lst_type .sp:hover, .lst_type .sp:focus {width:33px;background-position:0 -170px}\n.slide {position:absolute;top:0;left:0}\n.slide:focus,.slide2:focus {position:absolute;left:0;top:0;width:773px;height:486px;display:block;background:url(../img/slide1.jpg) 0 0 no-repeat}\n.slide2:focus{background-image:url(../img/slide2.jpg)}\n.lst_btn {float:left;padding:400px 0 0 10px}\n.lst_btn .play {background-position:-75px -170px}\n.lst_btn .on {display:block}\n.lst_btn button {z-index:10;display:none;position:relative;width:21px;height:21px;background-position:-52px -170px}\n\n/* section2 */\n.section2 {*zoom:1;float:left;padding-left:33px;height:210px}\n.section2:after {display:block;clear:both;content:''}\n.bx_type {position:relative;float:left;width:384px;height:210px;letter-spacing:-1px}\n.bx_type h3 {margin-top:-1px;padding-left:1px;font-size:19px;line-height:19px;color:#222}\n.bx_type .more {position:absolute;padding:5px;top:7px;left:368px;width:8px;height:8px}\n.bx_type .sp {margin-top:0px;display:inline-block;width:8px;height:8px;background-position:-98px -170px;font-size:0;vertical-align:top}\n.lst_type2 {padding-top:19px}\n.lst_type2 li {*zoom:1;padding-top:18px;font-size:14px;line-height:16px}\n.lst_type2 li:after {display:block;clear:both;content:''}\n.lst_type2 li:first-child {padding-top:9px}\n.lst_type2 a {float:left;display:block;overflow:hidden;width:320px;text-overflow:ellipsis;white-space:nowrap;color:#666}\n.lst_type2 .date {display:inline-block;float:right;color:#747474}\n.lst_type3 {float:left;margin-left:43px;width:312px}\n.lst_type3 li {width:311px;height:100px;padding-top:8px}\n.lst_type3 li:first-child {padding:0}\n.lst_type3 li a {display:block;width:290px;height:29px;padding:29px 0 42px 21px;font-size:19px;color:#333;letter-spacing:-1px;line-height:20px;font-weight:bold;border:1px solid #ddd}\n.lst_type3 li a:hover {text-decoration:none}\n.lst_type3 li span {display:inline-block;width:216px;padding-top:10px;vertical-align:top}\n.lst_type3 li .sp {padding:0;display:inline-block;width:44px;height:56px;background-position:-121px -40px}\n.lst_type3 li .bg2 {background-position:-167px -40px}\n\n/* section3 */\n.section3 {*zoom:1;float:left;padding:30px 0 80px 33px}\n.section3:after {display:block;clear:both;content:''}\n.section3 dt {float:left;padding-top:40px;width:92px;height:60px;background-color:#f3f3f3;text-align:center;color:#333;font-size:19px;line-height:20px;letter-spacing:-1px}\n.section3 dd a {font-size:15px;line-height:17px;letter-spacing:-1px;color:#333}\n.bx_type2 {*zoom:1;width:740px;height:100px}\n.bx_type2:after,.bx_type3:after {display:block;clear:both;content:''}\n.bx_type2 a {display:block;padding:3px 0 0 4px;float:left;width:88px;height:73px;border-right:1px solid #e3e3e3;text-align:center}\n.bx_type2 a:hover,.bx_type3 a:hover {text-decoration:none}\n.bx_type2 dd,.bx_type3 dd {padding:10px 0 13px 0;height:76px;float:left;border-bottom:1px solid #e3e3e3}\n.bx_type2 .type {padding-left:0;width:91px}\n.bx_type2 .sp {margin:6px 0 0 20px;display:block;width:49px;height:44px;background-position:-213px -40px;*margin:6px 0 0 12px}\n.bx_type2 .bg2 {background-position:-264px -40px}\n.bx_type2 .bg3 {background-position:-315px -40px}\n.bx_type2 .bg4 {margin-left:24px;background-position:-366px -40px;*margin-left:16px}\n.bx_type2 .bg5 {margin-left:24px;background-position:-417px -40px;*margin-left:16px}\n.bx_type2 .bg6 {margin-left:20px;background-position:-468px -40px;*margin-left:12px}\n.bx_type2 .bg7 {margin-left:23px;background-position:-519px -40px;*margin-left:15px}\n.bx_type3 {*zoom:1;margin-top:18px;width:740px}\n.bx_type3 a {display:inline-block;padding:30px 0 0 44px;width:141px;height:44px}\n.bx_type3 .type2 {padding:32px 0 0 41px;width:143px;border-left:1px solid #e3e3e3}\n.bx_type3 .sp {margin:-10px 0 0 37px;padding:0;display:inline-block;width:46px;height:39px;background-position:-213px -86px;vertical-align:top}\n.bx_type3 .bg2 {margin:-14px 0 0 33px;background-position:-261px -86px}\n.bx_type3 .type {height:76px;padding-top:24px;line-height:25px}\n.bx_type3 .bg3 {display:inline-block;padding:0;margin:-13px 0 0 33px;width:39px;height:43px;background-position:-309px -86px}\n\n\n/* footer */\n#footer {position:relative;width:980px;margin:0 auto;height:135px;border-top:2px solid #334555}\n.lst_footer:after {display:block;clear:both;content:''}\n.lst_footer {*zoom:1;border:1px solid #eee;border-top:0;border-right:0}\n.lst_footer li {float:left;width:489px}\n.lst_footer li:first-child {position:relative;border:0}\n.lst_footer a {padding-left:18px;display:block;width:471px;height:50px;font-size:13px;line-height:50px}\n.lst_footer span {float:left;vertical-align:top;color:#333}\n.lst_footer .sp {float:right;display:inline-block;width:56px;height:50px;background-position:-141px -134px}\n.lst_footer .type {position:relative}\n.lst_footer .type .on {display:block}\n.bx_footer,.bx_footer2 {display:none;padding:21px 0 26px 0;position:absolute;bottom:52px;left:-1px;width:692px;height:158px;border:1px solid #334555;background-color:#fff}\n.bx_footer li {float:left;padding-left:24px;width:152px;height:158px;border-left:1px solid #ececec}\n.bx_footer li:first-child {padding-left:25px;width:153px}\n.bx_footer .type2 {padding-left:23px}\n.bx_footer .type3 {padding-left:22px;width:137px}\n.bx_footer a,.bx_footer2 a {padding:0;width:100%;height:15px;font-size:13px;line-height:15px;color:#333}\n.bx_footer dt {padding-bottom:8px;font-size:14px;font-weight:bold}\n.bx_footer dd {padding-top:7px}\n.bx_footer2 {*zoom:1;padding:24px 0 25px 16px;width:705px;height:153px;left:-234px}\n.bx_footer2:after {display:block;clear:both;content:''}\n.bx_footer2 li {float:left;padding-left:15px;width:122px;height:154px;border-left:1px solid #ececec}\n.bx_footer2 ul li {float:none;padding:7px 0 0 0;width:123px;height:15px;border:0}\n.bx_footer2 ul li:first-child {padding-top:3px}\n\n.bx_footer3 {*zoom:1;padding-top:27px}\n.bx_footer3:after {display:block;clear:both;content:''}\n.bx_footer3 .sp {float:left;display:inline-block;width:62px;height:34px;background-position:0 -134px}\n.bx_footer3 .logo2 {float:left;display:inline-block;margin-left:24px;width:75px;height:34px;background-position:-64px -134px}\n.bx_footer3 p {float:left;display:inline-block;padding:10px 0 0 23px;vertical-align:top}\n.bx_footer3 dl {*zoom:1;width:199px;display:inline-block;float:right}\n.bx_footer3 dl:after {display:block;clear:both;content:''}\n.bx_footer3 dd {float:left;padding-left:10px}\n.bx_footer3 dd .sp {display:block;width:34px;height:34px;background-position:0 -98px}\n.bx_footer3 dd .bg2 {background-position:-36px -98px}\n.bx_footer3 dd .bg3 {background-position:-72px -98px}\n.bx_footer3 dd .bg4 {width:57px;background-position:-108px -98px}\n",
+			"file": "/D/00_조진경/_2014/1015_2_조진경/1015_2_조진경/css/index.css",
+			"file_size": 12389,
+			"file_write_time": 131320221460000000,
+			"settings":
+			{
+				"buffer_size": 12188,
+				"line_ending": "Windows",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "live",
+		"selected_items":
+		[
+			[
+				"live",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"emmet",
+				"Set Syntax: Emmet"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"livereload",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"package control:ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"random",
+				"Random:Text"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 446.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/00_조진경/0000_한성백제박물관_리디자인/web",
+		"/D/00_조진경/0000_한성백제박물관_리디자인/web/css"
+	],
+	"file_history":
+	[
+		"/D/00_조진경/0000_한성백제박물관_리디자인/web/js/gnb.js",
+		"/D/00_조진경/0000_한성백제박물관_리디자인/web/js/background.cycle.js",
+		"/D/00_조진경/0000_한성백제박물관_리디자인/web/css/layout.css",
+		"/D/00_조진경/0000_한성백제박물관_리디자인/web/js/topmenu.js",
+		"/D/00_조진경/0000_한성백제박물관_리디자인/web/js/fix.js",
+		"/D/00_조진경/연습하기/지질박물관/js/topmenu.js",
+		"/D/00_조진경/연습하기/jquery.bxslider/jquery.bxslider.js",
+		"/D/00_조진경/0223/css/style.css",
+		"/D/00_조진경/연습하기/pulse_그림자가번지듯...css",
+		"/D/00_조진경/연습하기/CSS3BouncingBall/js/modernizr.custom.79639.js",
+		"/D/00_조진경/0000_한성백제박물관_리디자인/web/js/jquery.bxslider.js",
+		"/D/00_조진경/0000_한성백제박물관_리디자인/web/css/jquery.bxslider.css",
+		"/D/00_조진경/코딩기본/z_zz - 복사본.html",
+		"/D/00_조진경/0000_한성백제박물관_리디자인/web/css/banner.css",
+		"/C/Users/608/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/608/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/D/00_조진경/0000_한성백제박물관_리디자인/web/index.html",
+		"/D/00_조진경/jquery/00여러가지 제이쿼리 소스들/배경이미지/배경이 변하는 제이쿼리/배경바뀌는제이쿼리.html",
+		"/D/00_조진경/0000_한성백제박물관_리디자인/web/js/cjem.ui.RollingBanner.js",
+		"/C/Users/608/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/C/Users/608/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/D/00_조진경/연습하기/rollingbanner/cjem.ui.RollingBanner.js",
+		"/D/00_조진경/연습하기/jquery.bxslider/README.md",
+		"/D/00_조진경/jquery/00여러가지 제이쿼리 소스들/배경이미지/배경이 변하는 제이쿼리/js/fix.js",
+		"/D/00_조진경/9999_markdown/2017032.md",
+		"/C/Users/608/AppData/Roaming/Sublime Text 3/Packages/User/Markdown (Standard).sublime-settings",
+		"/D/00_조진경/markdown/20170322",
+		"/D/00_조진경/0000_한성백제박물관_리디자인/web/img/bg_01.jpg",
+		"/D/00_조진경/코딩기본/000.css",
+		"/D/00_조진경/_2014/1015_2_조진경/1015_2_조진경/css/index.css",
+		"/D/00_조진경/0222_SKINRX/css/style.css",
+		"/D/00_조진경/0222_SKINRX/index.html",
+		"/D/00_조진경/0224/jquery.html",
+		"/D/00_조진경/0227/test/tab.html",
+		"/D/00_조진경/0224/carousel.html",
+		"/D/00_조진경/0224/flat.html",
+		"/D/00_조진경/0227/파리바게뜨/css/style.css",
+		"/D/00_조진경/0227/파리바게뜨/index.html",
+		"/D/00_조진경/0223/style.css",
+		"/D/00_조진경/0223/style01.css",
+		"/D/00_조진경/0222/red.html",
+		"/D/00_조진경/0222/html.html",
+		"/D/00_조진경/0222/green.html",
+		"/D/00_조진경/_SKINRX/html/content04.html",
+		"/D/00_조진경/_SKINRX/html/content01.html",
+		"/D/00_조진경/_SKINRX/css/style.css",
+		"/D/00_조진경/_SKINRX/index.html",
+		"/D/00_조진경/_SKINRX/index.sublime-workspace",
+		"/D/00_조진경/HUG/css/style.css",
+		"/C/Users/608/Downloads/nh.html",
+		"/C/Users/608/Downloads/main.css",
+		"/D/00_조진경/0217/레이아웃/css/style.css",
+		"/D/00_조진경/0217/레이아웃/hover_open.html",
+		"/D/00_조진경/0217/레이아웃/transition.html",
+		"/D/00_조진경/0217/레이아웃/animation.html",
+		"/D/00_조진경/0217/레이아웃/index.html",
+		"/D/00_조진경/0217/레이아웃/nor.html",
+		"/D/00_조진경/0217/레이아웃/css/header_style.css",
+		"/D/00_조진경/0217/레이아웃/header.html",
+		"/D/00_조진경/2016/레이아웃/index.html",
+		"/D/00_조진경/2016/on_on/on&on/css/style.css",
+		"/C/Users/608/Downloads/service_name.css",
+		"/D/00_조진경/2016/on_on/on&on/index.html",
+		"/D/00_조진경/2016/레이아웃/css/style.css",
+		"/D/00_조진경/0215/html/html/레이아웃.html",
+		"/D/00_조진경/2016/on_on/on&on/html/index.html",
+		"/D/00_조진경/0215/html/0215.sublime-project",
+		"/D/00_조진경/0215/on&on/css/style.css",
+		"/D/00_조진경/0215/on&on/html/index.html",
+		"/D/00_조진경/0215/html/css/style04.css",
+		"/D/00_조진경/0215/html/css/000.css",
+		"/D/00_조진경/0215/html/html/on&on.html",
+		"/D/00_조진경/0215/html/css/style03.css",
+		"/D/00_조진경/0215/html/css/style02.css",
+		"/D/00_조진경/0215/html/css/style01.css",
+		"/D/00_조진경/0215/html/html/시맨틱.html",
+		"/D/00_조진경/0215/html/html/시맨틱2.html",
+		"/D/00_조진경/0215/html/css/style01",
+		"/D/00_조진경/0215/html/html/overflow.html",
+		"/D/00_조진경/0215/html/html/div.html",
+		"/D/00_조진경/0215/html/html/z_index.html",
+		"/D/00_조진경/0214/html/css/style10.css",
+		"/D/00_조진경/0214/html/css/style07.css",
+		"/D/00_조진경/0215/html/html/복잡한float01.html",
+		"/D/00_조진경/0215/html/html/복잡한float02.html",
+		"/D/00_조진경/0215/html/html/float7.html",
+		"/D/00_조진경/0215/html/html/float6.html",
+		"/D/00_조진경/0214/html/html/float7.html",
+		"/D/00_조진경/0214/html/html/float6.html",
+		"/D/00_조진경/0214/html/html/float4.html",
+		"/D/00_조진경/0214/html/html/float5.html",
+		"/D/00_조진경/0214/html/html/float3.html",
+		"/D/00_조진경/0214/html/html/position.html",
+		"/D/00_조진경/0214/html/html/float.html",
+		"/D/00_조진경/0214/html/html/float2.html",
+		"/D/00_조진경/Sublime Text Build 3126/Data/Packages/View In Browser/View In Browser.sublime-settings",
+		"/D/00_조진경/Sublime Text Build 3126/Data/Packages/User/View In Browser.sublime-settings",
+		"/D/00_조진경/0214/html/html/webfont.html",
+		"/D/00_조진경/0214/html/html/inline.html",
+		"/D/00_조진경/0214/html/html/bgimage.html",
+		"/D/00_조진경/0214/html/html/border.html",
+		"/D/00_조진경/0214/html/css/style08.css",
+		"/D/00_조진경/0214/html/css/style09.css",
+		"/D/00_조진경/0214/html/html/textalign.html",
+		"/D/00_조진경/0214/html/html/backgroundimage.html",
+		"/D/00_조진경/0214/html/css/style06.css",
+		"/D/00_조진경/0214/html/html/box.html",
+		"/D/00_조진경/0214/html/css/style05.css",
+		"/D/00_조진경/0214/html/css/style04.css",
+		"/D/00_조진경/0214/html/html/boxdiv.html",
+		"/D/00_조진경/0214/html/css/manu.css",
+		"/D/00_조진경/0214/html/css/style02.css",
+		"/D/00_조진경/0214/html/css/style03.css",
+		"/D/00_조진경/0214/html/html/number.html",
+		"/D/00_조진경/0214/html/html/fontsize.html",
+		"/D/00_조진경/0214/html/css/style.css",
+		"/D/00_조진경/0214/html/html/input.html",
+		"/D/00_조진경/0214/html/html/manu.html"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tp_icon",
+			"news_box",
+			"@media",
+			"@",
+			"pulse",
+			"change-color",
+			"color",
+			"60",
+			"#gnb",
+			"#nb",
+			"150",
+			"flowergnb",
+			"cover",
+			"Position",
+			"}\n",
+			";\n",
+			"\n\n.th2 .gb_icon1_3 {\n\tbackground-position:-170px -2px;\n}",
+			"th2",
+			"gnb_link",
+			"60",
+			"310",
+			"#tm #summry2 .th2",
+			"#tm .th2>li",
+			"#tm.th2>li",
+			"#tmth2>li",
+			"#tm th2>li",
+			"th2>li",
+			"5",
+			"6",
+			"5",
+			"param.find",
+			"gnb",
+			"obj",
+			".wrapper",
+			"header_group",
+			"h2",
+			"font",
+			"family",
+			"border-box",
+			"title_text",
+			"font",
+			"135px",
+			"event_wrap",
+			"\n.contentsList .point_navi",
+			"event_wrap",
+			"234px",
+			".map_slot li:nth-child(2) .plus",
+			"plus",
+			"icon",
+			"news_more",
+			"viewport",
+			"slidewidth",
+			"bx-wrapper",
+			"slideWidth",
+			"min",
+			"minwidth",
+			"width",
+			"mobile",
+			"story_box",
+			"stiry_box",
+			".quick_title",
+			"news_wrap",
+			"event_wrap",
+			"news_wrap",
+			"고시공고",
+			"공지사항",
+			"보도자료",
+			"}\n",
+			"news_box",
+			".vr_control li button",
+			".vr_control li button.",
+			".vr_control li button",
+			"map_slot",
+			"ㅡ메",
+			"title",
+			"map_slot",
+			"pulse",
+			"dt",
+			".ㅡ메",
+			"></",
+			"th1",
+			"th1.a",
+			"gnb_link",
+			"ov",
+			"flower",
+			".css",
+			"left",
+			"wrapper",
+			"flower",
+			"tmb",
+			"elem",
+			"btn",
+			"flower",
+			"gnb_sub6",
+			"animate_bg",
+			"images/kr/common/tit_gnb_sub6.png",
+			"\\images/kr/common/tit_gnb_sub6.png",
+			"#animate:before",
+			"70",
+			"}",
+			"height",
+			"gnb",
+			"old_h",
+			"70",
+			"obj",
+			"70px",
+			"#gnb",
+			"#gnb {",
+			"#gnb ",
+			"#gnb",
+			"#header_group",
+			"current",
+			"height",
+			"btn",
+			"window",
+			"overflow",
+			"images/kr/common/new_header_bg.png",
+			"file:///images/kr/common/new_header_bg.png",
+			"th1_lnk",
+			"tn1_lnk",
+			"current",
+			"#tm .th2",
+			"gnb_link",
+			"animate",
+			"+g",
+			"ctrl+shift+g",
+			"gnb",
+			"flowgnb"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"li",
+			"news_icon sp",
+			"\"news_icon\"",
+			"\"news_date\"",
+			"\"news_title\"",
+			"\"notice_title\"",
+			"\"icon\"",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26909,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13958,
+								13958
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14016,
+										14018
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										13941,
+										13943
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 958.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/00_조진경/연습하기/css_pulse.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1290,
+								5659
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_name": "<!doctype html>",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										4929,
+										4930
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"is_init_dirty_state": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 340.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/00_조진경/코딩기본/z_zz - 복사본.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								217,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										212,
+										216
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										17,
+										21
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/00_조진경/코딩기본/000.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41759,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8530,
+								8533
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										8533,
+										8534
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										8529,
+										8530
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"is_init_dirty_state": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2620.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/D/00_조진경/연습하기/20170324.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 87,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17822,
+								17822
+							]
+						],
+						"settings":
+						{
+							"auto_name": "@charset \"utf-8\";",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										17823,
+										17824
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										17810,
+										17811
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"force_encoding": "UTF-8",
+							"history_list_is_closing": true,
+							"in_converting": true,
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"viewport_position":
+							[
+								0.0,
+								2398.0
+							]
+						},
+						"translation.x": 0.0,
+						"translation.y": 11941.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "css/layout.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								780,
+								780
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										782,
+										783
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										677,
+										678
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "js/background.cycle.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5321,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4507,
+								4507
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										4555,
+										4556
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										4031,
+										4032
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1174.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "js/topmenu.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								255
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										258,
+										259
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										253,
+										254
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "css/common.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								525,
+								525
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										550,
+										551
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										497,
+										498
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "css/banner.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10365,
+								10365
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										10365,
+										10366
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										10362,
+										10363
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3514.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/D/00_조진경/연습하기/css_pulse.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"auto_name": "@import \"nib\"",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"is_init_dirty_state": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Users/608/Downloads/animate.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 72259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2968,
+								2968
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2096.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "js/cjem.ui.RollingBanner.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7723,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								441,
+								441
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										620,
+										621
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										150,
+										151
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3371.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "js/topmenu_self.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1318,
+								1325
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1368,
+										1369
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1325,
+										1326
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/D/00_조진경/_2014/1015_2_조진경/1015_2_조진경/css/index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2309,
+								2309
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2308,
+										2309
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2253,
+										2254
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"in_converting": true,
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8-SIG",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 61.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "baekje.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 153.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
