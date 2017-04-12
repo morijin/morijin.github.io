@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff') format('woff');
+}
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff') format('woff');
+}
+@font-face {
+	font-family: 'BM JUA';
+	font-weight: normal;
+	font-style: normal;
+	src: url('https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM-JUA.eot');
+    src: url('https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM-JUA.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM-JUA.woff') format('woff'),
+         url('https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM-JUA.svg#BM-JUA') format('svg'),
+         url('https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM-JUA.ttf') format('truetype');
+}
