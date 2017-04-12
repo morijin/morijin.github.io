@@ -2,15 +2,13 @@
   font-family: 'LotteMartDream';
   font-style: normal;
   font-weight: 400;
-  src: url('https://cdn.rawgit.com/morijin/morijin.github.io/482aa15a/webfont/LotteMartDreamMedium.woff') format('woff'), 
-	  url('https://cdn.rawgit.com/morijin/morijin.github.io/482aa15a/webfont/LotteMartDreamMedium.woff2') format('woff2');
+  src: url('https://cdn.rawgit.com/morijin/morijin.github.io/482aa15a/webfont/LotteMartDreamMedium.woff') format('woff');
 }
 @font-face {
   font-family: 'LotteMartDream';
   font-style: normal;
   font-weight: 300;
-  src: url('https://cdn.rawgit.com/morijin/morijin.github.io/482aa15a/webfont/LotteMartDreamLight.woff') format('woff'),
-	  url('https://cdn.rawgit.com/morijin/morijin.github.io/482aa15a/webfont/LotteMartDreamLight.woff2') format('woff2');
+  src: url('https://cdn.rawgit.com/morijin/morijin.github.io/482aa15a/webfont/LotteMartDreamLight.woff') format('woff');
 }
 @font-face {
 	font-family: 'BM JUA';
