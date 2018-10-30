@@ -1,0 +1,458 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Portfolio By Jinkyoung</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<link type="text/css" rel="stylesheet" href="css/animation.css">
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/t.js"></script>
+		<script src="js/jquery.fullPage.js"></script>
+		<script src="js/jquery.modal.js"></script>
+		<script src="js/pdfobject.js"></script>
+		<script src="js/highcharts.js"></script>
+		<script src="js/mainJK.js"></script>
+	</head>
+
+	<body>
+		<nav class="nav">
+			<a href="#firstPage"><span class="sp icon01"></span><h1>Main</h1></a>
+			<ul class="lst_nav">
+				<li><a href="#secondPage"><span class="sp"></span>About</a></li>
+				<li><a href="#3rdPage"><span class="sp"></span>Skill</a></li>
+				<li><a href="#4rdPage/slide1" class="btn1"><span class="sp"></span>Design</a>
+					<ul class="lst_design">
+						<li><a href="#4rdPage/slide1"><span class="sp"></span>Banner</a></li>
+						<li><a href="#4rdPage/slide2"><span class="sp"></span>Event Page</a></li>
+						<li><a href="#4rdPage/slide3"><span class="sp"></span>Mailing</a></li>
+						<li><a href="#4rdPage/slide4"><span class="sp"></span>Promotion</a></li>
+						<li><a href="#4rdPage/slide5"><span class="sp"></span>illustrator</a></li>
+					</ul>
+				</li>
+				<li><a href="#5rdPage/slide1" class="btn2"><span class="sp"></span>Markup Coding</a>
+					<ul class="lst_coding">
+						<li><a href="#5rdPage/slide1"><span class="sp"></span>HDMBC</a></li>
+						<li><a href="#5rdPage/slide2"><span class="sp"></span>Hanseong</a></li>
+						<li><a href="#5rdPage/slide3"><span class="sp"></span>loststar</a></li>
+					</ul>
+				</li>
+				<li><a href="#lastPage"><span class="sp"></span>Contact</a></li>
+			</ul>
+		</nav>
+		<div id="wrap">
+			<div class="section active" id="section0">
+				<h1 class="blind">웹 퍼블리셔 조진경 포트폴리오 사이트</h1>
+				<div class="title_bx" id="typewriteText">
+				</div>
+				<a href="#secondPage" class="btn_scroll"><span>Scroll Down</span></a>
+			</div>
+			<div class="section" id="section1">
+				<a class="show"><span class="show_img sp"></span>about.html</a>
+				<div class="content" id="content">
+					<section class="post-header">
+						<div class="hero-image-container">
+							<div class="window-background"></div>
+							<div class="moon"></div>
+							<img class="hero-image" src="http://cssanimation.rocks/images/courses/animation_101/animation_101.svg" alt="Daily emails animation">
+							<div class="screen-container"></div>
+							<div class="notification"></div>
+						</div>
+					</section>
+					<ul class="lst_about">
+						<li><span class="c1">&lt;</span><span class="c2">name</span><span class="c1">&gt;</span> <span class="txt">조진경</span> <span class="c1">&lt;/</span><span class="c2">name</span><span class="c1">&gt;</span></li>
+						<li><span class="c1">&lt;</span><span class="c2">birth</span><span class="c1">&gt;</span> <span class="txt2">1984.02.04</span> <span class="c1">&lt;/</span><span class="c2">birth</span><span class="c1">&gt;</span></li>
+						<li><span class="c1">&lt;</span><span class="c2">address</span><span class="c1">&gt;</span> <span class="txt2">경기도 성남</span> <span class="c1">&lt;/</span><span class="c2">address</span><span class="c1">&gt;</span></li>
+						<li><span class="c1">&lt;</span><span class="c2">license</span><span class="c1">&gt;</span> <span class="txt2">GTQ 포토샵 1급</span> <span class="c1">&lt;/</span><span class="c2">license</span><span class="c1">&gt;</span></li>
+						<li><span class="c1">&lt;</span><span class="c2">edu</span><span class="c1">&gt;</span> <span class="txt2">영덕여자고등학교</span> <span class="c1">&lt;/</span><span class="c2">edu</span><span class="c1">&gt;</span></li>
+						<li><span class="c1">&lt;</span><span class="c2">edu</span><span class="c1">&gt;</span> <span class="txt2">청주대학교</span> <span class="c1">&lt;/</span><span class="c2">edu<span class="c1">&gt;</span></li>
+						<li><span class="c1">&lt;</span><span class="c2">edu</span><span class="c1">&gt;</span> <span class="txt2">한국직업전문학교 / 웹표준퍼블리셔</span> <span class="c1">&lt;/</span><span class="c2">edu</span><span class="c1">&gt;</span></li>
+						<li><span class="c1">&lt;</span><span class="c2">edu</span><span class="c1">&gt;</span> <span class="txt2">모노라움 / 웹퍼블리셔 입문과정</span> <span class="c1">&lt;/</span><span class="c2">edu</span><span class="c1">&gt;</span></li>
+						<li></li>
+						<li><span class="c1">&lt;</span><span class="c2">edu</span><span class="c1">&gt;</span> <span class="txt2">더조은컴퓨터아트학원<br><span class="pd"></span> / UI 컨텐츠 제작자 양성</span> <span class="c1">&lt;/</span><span class="c2">edu</span><span class="c1">&gt;</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="section" id="section2">
+				<a class="show"><span class="show_img sp"></span>skill.html</a>
+				<div class="content" id="content">
+					<script>
+						$('#section2').ready(function(){
+							// Create the chart
+							Highcharts.chart('chart', {
+							    chart: {
+							    	backgroundColor: '#fafafa',
+							        type: 'bar'
+							    },
+							    title: {
+							        text: ''
+							    },
+							    subtitle: {
+							        text: ''
+							    },
+							    xAxis: {
+							    	lineColor: 'transparent',
+							    	lineWidth: 1,
+							        type: 'category',
+							        tickColor: 'transparent'
+							    },
+							    yAxis: {
+							    	gridLineColor: 'transparent',
+							        title: {
+							            text: ''
+							        },
+							        labels: {
+							                    enabled: false
+							                }
+
+							    },
+							    legend: {
+							        enabled: false
+							    },
+							    plotOptions: {
+							        series: {
+							            borderWidth: 0,
+							            dataLabels: {
+							                enabled: true,
+							                format: '{point.y:.1f}%'
+							            }
+							        }
+							    },
+
+							    tooltip: {
+							        headerFormat: '',
+							        pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b><br/>'
+							    },
+
+							    series: [{
+							        name: 'Brands',
+							        colorByPoint: true,
+							        data: [{
+							            name: 'HTML',
+							            y: 90,
+							            drilldown: 'HTML'
+							        }, {
+							            name: 'CSS/CSS3',
+							            y: 85,
+							            drilldown: 'CSS/CSS3'
+							        }, {
+							            name: 'jQuery',
+							            y: 75,
+							            drilldown: 'jQuery'
+							        }, {
+							            name: 'JAVAScript',
+							            y: 70,
+							            drilldown: 'Safari'
+							        }, {
+							            name: 'Web standards',
+							            y: 85,
+							            drilldown: 'Web standards'
+							        }, {
+							            name: 'Photoshop',
+							            y: 85,
+							            drilldown: 'Photoshop'
+							        }]
+							    }],
+							});
+						});
+					</script>
+					<div id="chart" style="height: 450px; margin: 0 auto">
+					</div>
+					<div class="txt_skill">
+						<p><span class="c1">&lt;</span><span class="c2">p</span><span class="c1">&gt;</span>한국직업전문학교와 모노라움에서 마크업, 웹표준과 웹접근성에 대해 공부하였고<br>더조은컴퓨터아트학원에서는 웹디자인에 대해 학습하여,<br>웹디자인과 웹퍼블리셔에 대해 지식을 습득하였습니다.<span class="c1">&lt;/</span><span class="c2">p</span><span class="c1">&gt;</span></p>
+						<p><span class="c1">&lt;</span><span class="c2">p</span><span class="c1">&gt;</span>웹 접근성과 웹 사용성을 높이며,<br>관리를 용이하게 하는 웹 표준을 기반하여 마크업하는 것을 중요하게 생각합니다.<span class="c1">&lt;/</span><span class="c2">p</span><span class="c1">&gt;</span></p>
+						<p><span class="c1">&lt;</span><span class="c2">p</span><span class="c1">&gt;</span>HTML과 CSS를 자유롭게 사용하여 웹페이지를 구현할 수 있으며,<br>CSS3, jQuery를 용이하게 활용합니다.<span class="c1">&lt;/</span><span class="c2">p</span><span class="c1">&gt;</span></p>
+						<p><span class="c1">&lt;</span><span class="c2">p</span><span class="c1">&gt;</span>그리고...<br>
+						새로운 것을 배우는 것을 즐기고, 좋아합니다..!<span class="c1">&lt;/</span><span class="c2">p</span><span class="c1">&gt;</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="section" id="section3">
+				<!-- <a class="show2">Design</a> -->
+				<div class="content3" id="content">
+					<div class="slide" id="slide1" data-anchor="slide1">
+						<a href="#" class="show2"><span class="show_img sp"></span>design/banner.html</a>
+						<div class="bx_type01">
+							<ul class="lst_banner">
+								<li>
+									<a href="#btn_ban" rel="modal">
+										<span class="sp"></span>
+										<img src="img/HERA_1.jpg" width="364" height="184" alt="헤라 베너광고 이미지1">
+									</a>
+									<div id="btn_ban" class="modal" style="display:none">
+										<div class="banner1">
+											<img src="img/hera_pop_up_1.png" width="1074" height="715" alt="헤라 배너광고 이미지1 원본">
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="#btn_ban2" rel="modal">
+										<span class="sp"></span><img src="img/HERA_2.jpg" width="364" height="184" alt="헤라 베너광고 이미지2"></a>
+									<div id="btn_ban2" class="modal" style="display:none">
+										<div class="banner1">
+											<img src="img/hera_pop_up_2.png" width="1074" height="715" alt="헤라 배너광고 이미지2 원본">
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="#btn_ban3" rel="modal">
+										<span class="sp"></span><img src="img/HERA_3.jpg" width="364" height="184" alt="헤라 베너광고 이미지3"></a>
+									<div id="btn_ban3" class="modal" style="display:none">
+										<div class="banner1">
+											<img src="img/hera_pop_up_3.png" width="1074" height="715" alt="헤라 배너광고 이미지3 원본">
+										</div>
+									</div>
+								</li>
+							</ul>
+							<dl class="txt_desc">
+								<dt>
+									<span class="c1">&lt;</span><span class="c2">title</span><span class="c1">&gt;</span> 배너 디자인 <span class="c1">&lt;/</span><span class="c2">title</span><span class="c1">&gt;</span>
+								</dt>
+								<dd>
+									<span class="c1">&lt;</span><span class="c2">p</span><span class="c1">&gt;</span> 각 제품에 어울리는 배경 선택에 중점을 두었습니다. <span class="c1">&lt;</span><span class="c2">br</span><span class="c1">&gt;</span><br>
+									제품이 돋보일 수 있도록 가운데에 배치하였고, <span class="c1">&lt;</span><span class="c2">br</span><span class="c1">&gt;</span><br>
+									제품의 특성에 맞는 문구로 <span class="c1">&lt;</span><span class="c2">br</span><span class="c1">&gt;</span><br>
+									제품 특징을 나타낼 수 있게 하였습니다. <span class="c1">&lt;/</span><span class="c2">p</span><span class="c1">&gt;</span>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="slide" id="slide2" data-anchor="slide2">
+						<a href="#" class="show2"><span class="show_img sp"></span>design\event_page.html</a>
+						<div class="bx_type01">
+							<ul class="lst_banner">
+								<li>
+									<a href="#btn_ban4" rel="modal"><span class="sp"></span><img src="img/event_1.jpg" width="440" height="302" alt="클레어스 봄맞이 이벤트페이지"></a>
+									<div id="btn_ban4" class="modal" style="display:none">
+										<div class="banner1">
+											<img src="img/event_detail_1.jpg" width="800" height="3040" alt="">
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="#btn_ban5" rel="modal"><span class="sp"></span><img src="img/event_2.jpg" width="440" height="285" alt="클레어스 모찌 이벤트페이지"></a>
+									<div id="btn_ban5" class="modal" style="display:none">
+										<div class="banner1">
+											<img src="img/event_detail_2.jpg" width="800" height="2040" alt="헤라 배너광고 이미지2 원본">
+										</div>
+									</div>
+								</li>
+							</ul>
+							<dl class="txt_desc">
+								<dt>
+									<span class="c1">&lt;</span><span class="c2">title</span><span class="c1">&gt;</span> 클레어스 봄 이벤트 디자인 <span class="c1">&lt;/</span><span class="c2">title</span><span class="c1">&gt;</span>
+								</dt>
+								<dd>
+									<span class="c1">&lt;</span><span class="c2">p</span><span class="c1">&gt;</span> 봄과 가장 잘 어울리는 벚꽂의 색을 주제로 하였습니다. <span class="c1">&lt;</span><span class="c2">br</span><span class="c1">&gt;</span><br>
+									원래의 금액을 작고 흐리게, 판매중인 금액을 크고 진하게 표시하여 <span class="c1">&lt;</span><span class="c2">br</span><span class="c1">&gt;</span><br>
+									소비자의 편의를 높였습니다. <span class="c1">&lt;/</span><span class="c2">p</span><span class="c1">&gt;</span>
+								</dd>
+								<dt>
+									<span class="c1">&lt;</span><span class="c2">title</span><span class="c1">&gt;</span> 클레어스&amp;모찌 콜라보 이벤트 디자인 <span class="c1">&lt;/</span><span class="c2">title</span><span class="c1">&gt;</span>
+								</dt>
+								<dd>
+									<span class="c1">&lt;</span><span class="c2">p</span><span class="c1">&gt;</span> 실제 제품에 그려져있는 이미지를 조금 더 부각시켰습니다.  <span class="c1">&lt;</span><span class="c2">br</span><span class="c1">&gt;</span><br>
+									소비자에게 ‘화장품 회사에 모찌가?’ 라는 궁금증을 일으켜 <span class="c1">&lt;</span><span class="c2">br</span><span class="c1">&gt;</span><br>
+									신제품에 접근도를 높일 수 있도록 접근하였습니다. <span class="c1">&lt;</span><span class="c2">br</span><span class="c1">&gt;</span><br>
+									메인페이지의 궁금증을 바로 다음 해결하여 제품의 소개와 <span class="c1">&lt;</span><span class="c2">br</span><span class="c1">&gt;</span><br>
+									궁금증 해결을 바로 상품의 인식으로 연결하였습니다.  <span class="c1">&lt;/</span><span class="c2">p</span><span class="c1">&gt;</span>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="slide" id="slide3" data-anchor="slide3">
+						<a href="#" class="show2"><span class="show_img sp"></span>design\mailing.html</a>
+						<div class="bx_type01">
+							<div class="lst_banner">
+								<a href="#btn_ban6" rel="modal"><span class="sp"></span><img src="img/mailling.jpg" width="680" height="422" alt="메일링이미지"></a>
+								<div id="btn_ban6" class="modal" style="display:none">
+									<div class="banner1">
+										<img src="img/mailling_detail.jpg" width="800" height="2791" alt="메일링이미지 원본">
+									</div>
+								</div>
+							</div>
+							<dl class="txt_desc">
+								<dt>
+									<span class="c1">&lt;</span><span class="c2">title</span><span class="c1">&gt;</span> KAKAO 메일링 디자인 <span class="c1">&lt;/</span><span class="c2">title</span><span class="c1">&gt;</span>
+								</dt>
+								<dd>
+									<span class="c1">&lt;</span><span class="c2">p</span><span class="c1">&gt;</span> 카카오의  브랜드 색상인 노란색을 테마로 하였습니다. <span class="c1">&lt;</span><span class="c2">br</span><span class="c1">&gt;</span><br>
+									노란색의 테마에 맞춰 글씨의 색상은 화이트 혹은 노란색으로 하였고, <span class="c1">&lt;</span><span class="c2">br</span><span class="c1">&gt;</span><br>
+									현재 카카오에서 가장 강력하게 마케팅 하고 있는 <span class="c1">&lt;</span><span class="c2">br</span><span class="c1">&gt;</span><br>
+									카카오 페이지를 메인으로 삼아, 고객의 타겟을 맞추었습니다.  <span class="c1">&lt;/</span><span class="c2">p</span><span class="c1">&gt;</span>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="slide" id="slide4" data-anchor="slide4">
+						<a href="#" class="show2"><span class="show_img sp"></span>design\promotion.html</a>
+						<div class="lst_banner">
+							<a href="#btn_ban7" rel="modal"><span class="sp"></span><img src="img/promotion.jpg" width="680" height="422" alt="리틀포레스트 영화 프로모션이미지"></a>
+							<div id="btn_ban7" class="modal" style="display:none">
+								<div class="banner1">
+									<img src="img/promotion_detail1.jpg" width="1000" height="2313" alt="프로모션 원본">
+								</div>
+							</div>
+						</div>
+						<dl class="txt_desc">
+							<dt>
+								<span class="c1">&lt;</span><span class="c2">title</span><span class="c1">&gt;</span> KAKAO 메일링 디자인 <span class="c1">&lt;/</span><span class="c2">title</span><span class="c1">&gt;</span>
+							</dt>
+							<dd>
+								<span class="c1">&lt;</span><span class="c2">p</span><span class="c1">&gt;</span> 카카오의  브랜드 색상인 노란색을 테마로 하였습니다. <span class="c1">&lt;</span><span class="c2">br</span><span class="c1">&gt;</span><br>
+								노란색의 테마에 맞춰 글씨의 색상은 화이트 혹은 노란색으로 하였고, <span class="c1">&lt;</span><span class="c2">br</span><span class="c1">&gt;</span><br>
+								현재 카카오에서 가장 강력하게 마케팅 하고 있는 <span class="c1">&lt;</span><span class="c2">br</span><span class="c1">&gt;</span><br>
+								카카오 페이지를 메인으로 삼아, 고객의 타겟을 맞추었습니다.  <span class="c1">&lt;/</span><span class="c2">p</span><span class="c1">&gt;</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="slide" id="slide5" data-anchor="slide5">
+						<a href="#" class="show2"><span class="show_img sp"></span>design\illustrator.html</a>
+						<div class="lst_banner">
+							<a href="#btn_ban8" rel="modal"><span class="sp"></span><img src="img/illu.png" width="635" height="577" alt="일러스트 이미지"></a>
+							<div id="btn_ban8" class="modal" style="display:none">
+								<div class="banner1">
+									<img src="img/illu_detail.jpg" width="847" height="1200" alt="일러스트 이미지 원본">
+								</div>
+							</div>
+						</div>
+						<dl class="txt_desc">
+						</dl>
+					</div>
+				</div>
+			</div>
+			<div class="section" id="section4">
+				<div class="content4" id="content">
+					<div class="slide" id="slide1" data-anchor="slide1">
+						<a class="show2"><span class="show_img sp"></span>coding\HDMBC.html</a>
+						<div class="bx_img">
+							<div class="img_hdmbc img_type"></div>
+							<a class="sp" href="http://moriya.dothome.co.kr/hdmbc" data-tooltip-text="자세히 보고싶다면!" target="_blank"></a>
+							<a class="btn2 sp" href="#btn_ban9" rel="modal" data-tooltip-text="마크업에 대한 설명을 볼 수 있어요!"></a>
+						</div>
+						<div id="btn_ban9" class="bx_pdf" style="display:none">
+							<div id="file_pdf"></div>
+						</div>
+						<dl class="txt_type">
+							<dt>
+								<span class="c1">&lt;</span><span class="c2">title</span><span class="c1">&gt;</span> HD MBC <span class="c1">&lt;/</span><span class="c2">title</span><span class="c1">&gt;</span>
+							</dt>
+							<dd>
+								<!-- 이부분 ul 로 변경하기 -->
+								<span class="pd3"></span><span class="c1">&lt;</span><span class="c2">ul</span><span class="c1">&gt;</span><br>
+								<span class="pd3"></span><span class="pd3"></span><span class="c1">&lt;</span><span class="c2">li</span><span class="c1">&gt;</span> DOCTYPE : HTML 5 <span class="c1">&lt;/</span><span class="c2">li</span><span class="c1">&gt;</span><br>
+								<span class="pd3"></span><span class="pd3"></span><span class="c1">&lt;</span><span class="c2">li</span><span class="c1">&gt;</span> 기준 브라우저 : 크롬 <span class="c1">&lt;/</span><span class="c2">li</span><span class="c1">&gt;</span><br>
+								<span class="pd3"></span><span class="pd3"></span><span class="c1">&lt;</span><span class="c2"
+								>li</span><span class="c1">&gt;</span> 지원 브라우저 : IE 7 ~ IE 11, 파이어 폭스, 크롬 <span class="c1">&lt;/</span><span class="c2">li</span><span class="c1">&gt;</span><br>
+								<span class="pd3"></span><span class="pd3"></span><span class="c1">&lt;</span><span class="c2">li</span><span class="c1">&gt;</span> 작업시간 <br>
+								<span class="pd2"></span><span class="pd3"></span>main/14시간  sub 2 page/5시간,<br><span class="pd2"></span><span class="pd3"></span>총 19 시간 <span class="c1">&lt;/</span><span class="c2">li</span><span class="c1">&gt;</span><br>
+								<span class="pd3"></span><span class="c1">&lt;/</span><span class="c2">ul</span><span class="c1">&gt;</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="slide" id="slide2" data-anchor="slide2">
+						<a class="show2"><span class="show_img sp"></span>coding\hanseong.html</a>
+						<div class="bx_img">
+							<div class="img_hanseong img_type">
+							</div>
+							<a class="sp" href="http://moriya.dothome.co.kr/hanseong" data-tooltip-text="자세히 보고싶다면!" target="_blank"></a>
+							<a class="btn2 sp" href="#btn_ban9" rel="modal" data-tooltip-text="마크업에 대한 설명을 볼 수 있어요!"></a>
+						</div>
+						<div id="btn_ban9" class="bx_pdf" style="display:none">
+							<div id="file_pdf"></div>
+						</div>
+						<dl class="txt_type type2">
+							<dt>
+								<span class="c1">&lt;</span><span class="c2">title</span><span class="c1">&gt;</span> 한성백제박물관 <span class="c1">&lt;/</span><span class="c2">title</span><span class="c1">&gt;</span>
+							</dt>
+							<dd>
+								<!-- 이부분 ul 로 변경하기 -->
+								<span class="pd3"></span><span class="c1">&lt;</span><span class="c2">ul</span><span class="c1">&gt;</span><br>
+								<span class="pd3"></span><span class="pd3"></span><span class="c1">&lt;</span><span class="c2">li</span><span class="c1">&gt;</span> 리디자인 <span class="c1">&lt;/</span><span class="c2">li</span><span class="c1">&gt;</span><br>
+								<span class="pd3"></span><span class="pd3"></span><span class="c1">&lt;</span><span class="c2">li</span><span class="c1">&gt;</span> DOCTYPE : HTML 5 <span class="c1">&lt;/</span><span class="c2">li</span><span class="c1">&gt;</span><br>
+								<span class="pd3"></span><span class="pd3"></span><span class="c1">&lt;</span><span class="c2">li</span><span class="c1">&gt;</span> 기준 브라우저 : 크롬 <span class="c1">&lt;/</span><span class="c2">li</span><span class="c1">&gt;</span><br>
+								<span class="pd3"></span><span class="pd3"></span><span class="c1">&lt;</span><span class="c2"
+								>li</span><span class="c1">&gt;</span> 지원 브라우저 : 크롬 <span class="c1">&lt;/</span><span class="c2">li</span><span class="c1">&gt;</span><br>
+								<span class="pd3"></span><span class="pd3"></span><span class="c1">&lt;</span><span class="c2">li</span><span class="c1">&gt;</span> 작업시간 <br>
+								<span class="pd2"></span><span class="pd3"></span>main / 32시간<br><span class="pd2"></span><span class="pd3"></span>총 32 시간 <span class="c1">&lt;/</span><span class="c2">li</span><span class="c1">&gt;</span><br>
+								<span class="pd3"></span><span class="c1">&lt;/</span><span class="c2">ul</span><span class="c1">&gt;</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="slide" id="slide3" data-anchor="slide3">
+						<a class="show2"><span class="show_img sp"></span>coding\loststar.html</a>
+						<div class="bx_img">
+							<div class="img_loststar img_type">
+							</div>
+							<a class="sp" href="http://moriya.dothome.co.kr/lost" data-tooltip-text="자세히 보고싶다면!" target="_blank"></a>
+							<a class="btn2 sp" href="#btn_ban9" rel="modal" data-tooltip-text="마크업에 대한 설명을 볼 수 있어요!"></a>
+						</div>
+						<div id="btn_ban10" class="bx_pdf" style="display:none">
+							<div id="file_pdf"></div>
+						</div>
+						<dl class="txt_type type2">
+							<dt>
+								<span class="c1">&lt;</span><span class="c2">title</span><span class="c1">&gt;</span> LOST STAR <span class="c1">&lt;/</span><span class="c2">title</span><span class="c1">&gt;</span>
+							</dt>
+							<dd>
+								<!-- 이부분 ul 로 변경하기 -->
+								<span class="pd3"></span><span class="c1">&lt;</span><span class="c2">ul</span><span class="c1">&gt;</span><br>
+								<span class="pd3"></span><span class="pd3"></span><span class="c1">&lt;</span><span class="c2">li</span><span class="c1">&gt;</span> 전체디자인 <span class="c1">&lt;/</span><span class="c2">li</span><span class="c1">&gt;</span><br>
+								<span class="pd3"></span><span class="pd3"></span><span class="c1">&lt;</span><span class="c2">li</span><span class="c1">&gt;</span> DOCTYPE : HTML 5 <span class="c1">&lt;/</span><span class="c2">li</span><span class="c1">&gt;</span><br>
+								<span class="pd3"></span><span class="pd3"></span><span class="c1">&lt;</span><span class="c2">li</span><span class="c1">&gt;</span> 기준 브라우저 : 크롬 <span class="c1">&lt;/</span><span class="c2">li</span><span class="c1">&gt;</span><br>
+								<span class="pd3"></span><span class="pd3"></span><span class="c1">&lt;</span><span class="c2"
+								>li</span><span class="c1">&gt;</span> 지원 브라우저 : 크롬 <span class="c1">&lt;/</span><span class="c2">li</span><span class="c1">&gt;</span><br>
+								<span class="pd3"></span><span class="pd3"></span><span class="c1">&lt;</span><span class="c2">li</span><span class="c1">&gt;</span> 작업시간 <br>
+								<span class="pd2"></span><span class="pd3"></span>main / 32시간<br><span class="pd2"></span><span class="pd3"></span>총 32 시간 <span class="c1">&lt;/</span><span class="c2">li</span><span class="c1">&gt;</span><br>
+								<span class="pd3"></span><span class="c1">&lt;/</span><span class="c2">ul</span><span class="c1">&gt;</span>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<div class="section" id="section5">
+				<a class="show"><span class="show_img sp"></span>contact.html</a>
+				<div class="content" id="content">
+					<section>
+						<form action="https://formspree.io/jiki.mori@gmail.com" method="POST">
+							 <!--  -->
+							<fieldset name="contact_mail">
+								<legend>Email Contact</legend>
+								<div class="bx_name">
+									<label for="name"></label>
+									<input type="txt" name="name" id="name" placeholder="name">
+								</div>
+								<div class="bx_email">
+									<label for="email"></label>
+									<input type="email" name="_replyto" id="email" placeholder="email">
+								</div>
+								<div class="bx_message">
+									<label for="message"></label>
+									<textarea name="message" id="message" placeholder="message" row="6"></textarea>
+								</div>
+								<ul class="lst_btn">
+									<li>
+										<input type="submit" value="Send Message">
+									</li>
+									<li>
+										<input type="reset" value="Clear">
+									</li>
+								</ul>
+							</fieldset>
+						</form>
+					</section>
+					<section class="bx_content">
+						<span class="c1">&lt;</span><span class="c2">direct</span><span class="c1">&gt;</span> CONTACT <span class="c1">&lt;/</span><span class="c2">direct</span><span class="c1">&gt;</span>
+						<ul>
+							<li><span class="sp"></span>jiki.mori@gmail.com</li>
+							<li><span class="sp"></span>010 6876 6333</li>
+							<li><span class="sp"></span>https://github.com/morijin/portfolio</li>
+						</ul>
+					</section>
+				</div>
+				<footer>
+					<div class="copyright">Copyright © 2017 Jinkyoung Jo All rights reserved</div>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>
