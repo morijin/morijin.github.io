@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* reset */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, textarea, p, blockquote, th, td, input, select, button {
+margin: 0;
+padding: 0; }
+
+fieldset, img {
+border: 0 none; }
+
+dl, ul, ol, menu, li {
+list-style: none; }
+
+blockquote, q {
+quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+content: '';
+content: none; }
+
+input, select, textarea, button {
+vertical-align: middle; }
+
+input::-ms-clear {
+display: none; }
+
+button {
+border: 0 none;
+background-color: transparent;
+cursor: pointer; }
+
+body {
+background: #fff; }
+
+body, th, td, input, select, textarea, button {
+font-size: 14px;
+line-height: 1.5;
+font-family: 'NotoSansCJKkr-DemiLight','AppleSDGothicNeo-Regular','\B9D1\C740   \ACE0\B515','Malgun Gothic','\B3CB\C6C0',dotum,sans-serif;
+color: #222; }
+
+a {
+color: #222;
+text-decoration: none; }
+
+a:active, a:hover {
+text-decoration: underline; }
+
+address, caption, cite, code, dfn, em, var {
+font-style: normal;
+font-weight: normal; }
+
+html, body {
+height: 100%; }
+
+#kakaoWrap {
+position: relative;
+min-height: 100%;
+min-width: 1160px; }
+
+br {
+font-family: sans-serif; }
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+transition: background-color 50000s ease-in-out 0s,color 5000s ease-in-out 0s; }
+
+table {
+border-collapse: collapse;
+border-spacing: 0; }
+
+
+
+.photoview_layer {
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 9998;
+background-color: #f1f1f1; }
+.photoview_layer .photoview {
+width: 100%;
+height: 100%; }
+
+.photoview_layer .photoview div {
+width: 100%;
+height: 100%; }
+
+.photoview_layer .cover_panel {
+display: table;
+table-layout: fixed;
+text-align: center; }
+
+.photoview_layer .item_panel {
+display: table-cell;
+vertical-align: middle; }
+
+.photoview_layer .item_panel .img_g {
+display: inline-block;
+width: auto;
+height: auto;
+max-width: 100%;
+max-height: 100vh; }
+.photoview_layer .btn_slide {
+position: absolute;
+top: 50%; 
+width:100px;
+height:100px;
+border-radius:100px;
+border:3px solid rgba(0,0,0,.04);
+color:transparent}
+
+.photoview_layer .btn_prev {
+left: 27px;
+transform: translateY(-50%) rotate(180deg); }
+
+.photoview_layer .btn_next {
+right: 27px;
+transform: translateY(-50%); }
+  
