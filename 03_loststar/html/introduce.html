@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lost Star - 길을 잃은 그대에게</title>
+	<!-- <link rel="//cdn.rawgit.com/morijin/morijin.github.io/fb530e22/webfont/webfont.css"> -->
+	<link type="text/css" rel="stylesheet" href="../css/style.css">
+	<link type="text/css" rel="stylesheet" href="../css/jquery.range.css">
+	<script src="../js/jquery-1.11.2.min.js"></script>
+	<script src="../js/jquery.range-min.js"></script>
+	<script src="../js/calendar.js"></script>
+	<script src="../js/jquery.modal.js"></script>
+	<script src="../js/jquery.textillate.js"></script>
+	<script src="../js/jquery.lettering.js"></script>
+	<script src="../js/mixslider-min.js"></script>
+	<script>
+		$(function() {
+			$('a[href="#none"]').click(function(event) {
+				alert('아직 준비 되지 않았어요 :)');
+			});
+			$('.sub_intro').mixslider({
+				delay: 5000,
+				autoplay: true,
+				keys: false,
+				arrows: false,
+				nav: false
+			});
+			$('.text01').textillate({
+				initialDelay: 600,
+				delay: 200,
+				loop: true,
+				autoStart: true
+			});
+			$('.text02').textillate({
+				initialDelay: 1100,
+				delay: 200,
+				loop: true
+			});
+			$('#bar01').animate({left:'200px'},1000);
+			$('#bar02').animate({left:'836px'},1000);
+			//여기까지 인트로 효과
+
+			$('.lst_search .btn').click(function(){					
+				$me = $(this).next('.box01');
+				$me.toggleClass('off');
+				$me.toggleClass('tooltip');
+				$(this).parent().siblings().children('.box01').not($me).removeClass('tooltip').addClass('off');
+				$(this).parent().parent().parent().siblings('.box02').children('.box01').not($me).removeClass('tooltip').addClass('off');
+			});
+			$('.wish_lst').click(function(){				
+				$me = $(this).next('.box01');
+				$me.toggleClass('off');
+				$me.toggleClass('tooltip');
+				$(this).parent().siblings().children().children().children('.box01').not($me).removeClass('tooltip').addClass('off')
+			});
+			$('.location').focus(function(){
+				$('.location').animate({'width':'200px'}, 300);
+				$('.location').parents().parents().parents().siblings('.box02').animate({marginLeft:'72px'}, 300);
+			});
+			$('.location').blur(function(){
+				$('.location').animate({'width':'102px'}, 300);
+				$('.location').parents().parents().parents().siblings('.box02').animate({marginLeft:'170px'}, 300);
+			});
+			//버튼 클릭 후 제외하는 공간을 클릭할 때 없어지게... 하고싶다...
+			// $('body').click(function(e){ 
+			//  		if($('.box01').hasClass('tooltip')) {
+			//  				if(!$('#autoKeyword,#input_search').has(e.target).length){
+			//  					$('.box01').hide();
+			//  					}			 			
+			//  			}
+			// });
+			//여기까지 gnb 버튼 설정 by.J
+
+			function log_modal_event(event, modal) {
+			  if(typeof console != 'undefined' && console.log) console.log("[event] " + event.type);
+			};
+			$(document).on($.modal.BEFORE_BLOCK, log_modal_event);
+			$(document).on($.modal.BLOCK, log_modal_event);
+			$(document).on($.modal.BEFORE_OPEN, log_modal_event);
+			$(document).on($.modal.OPEN, log_modal_event);
+			$(document).on($.modal.BEFORE_CLOSE, log_modal_event);
+			$(document).on($.modal.CLOSE, log_modal_event);
+			$(document).on($.modal.AFTER_CLOSE, log_modal_event);
+			$(document).on($.modal.AJAX_SEND, log_modal_event);
+			$(document).on($.modal.AJAX_SUCCESS, log_modal_event);
+			$(document).on($.modal.AJAX_COMPLETE, log_modal_event);
+			$('a[href="#signin"]').click(function(event) {
+			  event.preventDefault();
+			  $(this).modal({
+			    fadeDuration: 250
+			  });
+			});
+			$('a[href="#login"]').click(function(event) {
+			  event.preventDefault();
+			  $(this).modal({
+			    fadeDuration: 250
+			  });
+			});
+			$('a[href="#bx_compair"]').click(function(event) {
+			  event.preventDefault();
+			  $(this).modal({
+			    fadeDuration: 250
+			  });
+			});
+			// 여기까지 모달팝업
+		    'use strict';
+		    $('.bx_adult').each(function ( index, element ) {
+		        var count = 0;
+		        var $component = $(element);
+		        var $output = $component.find('.counter-output');
+
+		        var updateCount = function( increment ) {
+		            count += increment;
+		            count = count < 0 ? 0 : count;
+
+		            $output.text(count);
+		        };
+
+		        $component.on('click', '[data-increment]', function ( event ) {
+		            var increment = $(event.target).data('increment');
+		            updateCount(+increment);
+		        });
+
+		        updateCount( count ); //initial state
+		    });
+		    $('.bx_child').each(function ( index, element ) {
+		        var count = 0;
+		        var $component = $(element);
+		        var $output = $component.find('.counter-output_child');
+
+		        var updateCount = function( increment ) {
+		            count += increment;
+		            count = count < 0 ? 0 : count;
+
+		            $output.text(count);
+		        };
+
+		        $component.on('click', '[data-increment]', function ( event ) {
+		            var increment = $(event.target).data('increment');
+		            updateCount(+increment);
+		        });
+
+		        updateCount( count ); //initial state
+		    });
+		    //여기까지 사람 숫자 counter (2군데)
+		    $('.range-slider').jRange({
+		        from: 10000,
+		        to: 100000,
+		        step: 1,
+		        scale: [10000,100000],
+		        format: '%s',
+		        width: 210,
+		        showLabels: true,
+		        isRange : true,
+		        theme : 'theme-blue'
+		    });
+		    //여기까지 금액설정 range-slider
+		});
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<div class="container">
+			<header>
+				<div class="header">
+					<div class="wrap_header">
+						<h1><a href="../index.html" class="head_logo sp">Lost Star - 게스트하우스 검색하기</a></h1>
+						<h2>search button, navigation</h2>
+						<ul class="lst_gnb">
+							<li>
+								<!-- btn버튼 클릭시 아래 class명 lst_search 으로 변경 
+									동시에 btn 클래스에 off 클래스 추가 -->
+								<ul class="lst_search">
+									<li>
+										<input class="btn ser_btn location" type="text" placeholder="위치"></input>
+										<!-- input 클릭시 아래 class명 off를 tooltip 으로 변경 -->
+										<div class="container_loca off">
+											<p>제주도</p>
+											<p>제주특별자치도 제주시 제주도공항</p>
+											<p>제주특별자치도 제주시 제주도청</p>
+										</div>
+									</li>
+									<li>
+										<button class="btn ser_btn date">날짜</button>
+										<!-- date 클릭시 아래 class 명 off를 tooltip 으로 변경 -->
+										<div class="box01 container_calen off">
+											<div class='wrap_calendar_left'>
+												<div class='btn-holder'>
+													<button id='btnPrev' class="sp"></button>
+													 <span id='currentDate'></span> 
+													<!-- <button id='btnNext' class="sp"></button> -->
+												</div>
+												<div id="calendar"></div>
+											</div>
+											<div class='wrap_calendar_right'>
+												<div class='btn-holder'>
+													<!-- <button id='btnPrev2' class="sp"></button> -->
+													 <span id='currentDate2'></span> 
+													<button id='btnNext2' class="sp"></button>
+												</div>
+												<div id="calendar2"></div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<button class="btn ser_btn guest">인원</button>
+										<!-- guest 버튼 클릭시 아래 class 명 off를 tooltip 으로 변경 -->
+										<div class="box01 wrap_guest off">
+											<div class="bx_adult">
+												<button class="sp" type="button" data-increment="-1"></button>
+												<div class="wrap_text">
+													<span>성인</span>
+													<span class="counter-output"></span>
+												</div>
+												<button class="sp right" type="button" data-increment="1"></button>
+											</div>
+											<div class="bx_child">
+												<button class="sp" type="button" data-increment="-1"></button>
+												<div class="wrap_text">
+													<span>유아</span>
+													<span class="counter-output_child"></span>
+												</div>
+												<button class="sp right" type="button" data-increment="1"></button>
+											</div>
+										</div>
+									</li>
+									<li>
+										<button class="btn ser_btn cash">요금범위</button>
+										<!-- cash 버튼 클릭시 아래 class 명 off를 tooltip 으로 변경 -->
+										<div class="box01 wrap_range off">
+											<input class="range-slider" type="hidden" value="20000,80000" />
+										</div>
+									</li>
+									<li>
+										<a href="search.html" class="btn btn_search">검색</a>
+									</li>
+								</ul>
+							</li>
+							<li class="box02">
+								<button class="btn wish_lst"><span class="wish_list sp">Wish_list</span></button>
+								<!-- login 버튼 클릭시 아래 class 명 off를 tooltip 으로 변경 -->
+								<div class="box01 wrap_wish off">
+									<p>서울 라인 게스트하우스</p>
+									<p>제주 어머니집</p>
+									<p>초가지붕 게스트하우스</p>
+								</div>
+							</li>
+							<li>
+								<a class="btn comp" href="#bx_compair">
+									<span class="compair sp"></span>
+									<span class="wrap_comp tooltip">비교바구니</span>
+								</a>
+								<div class="modal pop_comp" id="bx_compair" style="display:none;">
+								  <h3><span><span class="pop_icon01 sp"></span>비교바구니</span></h3>
+								  <span>최대 3개 비교가 가능합니다!</span>
+								  <div class="bx_comp_01 type01">
+								  	<h4>서울 라인 게스트하우스</h4>
+								  	<ul class="lst_detail">
+								  		<li><a href="#" class="img_detail">상세페이지</a></li>
+								  		<li class="txt_detail"><p>직접 준비하는 특별한 아침식사<br>
+								  		경복궁에서 단 5분 거리에 위치합니다.</p></li>
+								  		<li>서울특별시 종로구 사간동</li>
+								  		<li class="num_detail">
+								  			<ul>
+								  				<li>02-333-8888</li>
+								  				<li>010-5511-1111</li>
+								  			</ul>
+								  		</li>
+								  		<li class="eat_detail">조식가능</li>
+								  		<li class="cash_detail">&#8361;27,000</li>
+								  		<li class="bed_detail">공용침대</li>
+								  	</ul>
+								  </div>
+								  <div class="bx_comp_02 type01"></div>
+								  <div class="bx_comp_03 type01"></div>
+								</div>
+							</li>
+							<li>
+								<a class="btn login" href="#login">로그인</a>
+								<!-- login 버튼 클릭시 아래 class 명 off를 tooltip 으로 변경 -->
+								<div class="modal wrap_login tooltip" id="login" style="display:none">
+									<strong>로그인</strong>
+									<form>
+										<input type="email" placeholder="이메일주소"/>
+										<input type="password" placeholder="비밀번호"/>
+										<div class="forgot">
+											<a href="#">이메일 주소</a> / <a href="#">비밀번호</a>가 생각나지 않으세요?
+										</div>
+										<button class="btn_login" type="submit">LOGIN</button>
+										<div class="ch_singin">
+											<a href="#signin">Lost Star 계정이 없으세요? 회원가입 하세요!</a>
+										</div>
+									</form>
+								</div>
+							</li>
+							<li>
+								<a class="btn signin" href="#signin">회원가입</a>
+								<!-- signin 버튼 클릭시 아래 class 명 off를 tooltip 으로 변경 -->
+								<div class="modal wrap_signin tooltip" id="signin" style="display:none">
+									<strong>회원가입</strong>
+									<form>
+										<input type="text" placeholder="이름"/>
+										<input type="email" placeholder="이메일주소"/>
+										<input type="password" placeholder="비밀번호 설정"/>
+										<input type="password" placeholder="비밀번호 재확인"/>
+										<div class="wrap_privacy">
+											<input type="checkbox" id="privacy"/>
+											<label for="privacy">이용약관에 동의합니다.</label>
+											<a href="#">(자세한내용)</a>
+										</div>
+										<div class="wrap_terms">
+											<input type="checkbox" id="terms"/>
+											<label for="terms">개인정보취급방침에 동의합니다.</label>
+											<a href="#">(자세한내용)</a>
+										</div>
+										<button class="btn_singin" type="submit">회원가입</button>
+										<div class="ch_login">
+											<a href="#login">Lost Star 계정이 이미 있나요? 로그인 하세요!</a>
+										</div>
+									</form>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</header>
+			<section class="sub_intro">
+				<h2>Lost star 소개</h2>
+				<ul>
+					<li class="intro">
+						<span id="bar01" class="bar01"></span>
+						<span id="bar02" class="bar01 bar02"></span>
+						<p class="text01">길을 찾고 있어요?</p>
+						<p class="text02">길을 잃은 그대의 친구가 될께요.</p>
+					</li>
+					<li class="intro2">
+						<span id="bar01" class="bar01"></span>
+						<span id="bar02" class="bar01 bar02"></span>
+						<p class="text01">홀로 떠나는 여행길</p>
+						<p class="text02">걸음걸음 함께 합니다.</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</div>
+		<footer>
+			<a href="../index.html" class="foot_logo sp">Lost Star</a>
+			<ul class="lst_footmenu">
+				<li><a href="#">소개</a></li>
+				<li><a href="#none">이용약관</a></li>
+				<li><a href="#none">개인정보취급방침</a></li>
+			</ul>
+			<address>
+				<span class="address">서울시 송파구 송파대로 444 Tower 010 3층</span>
+			</address>
+			<ul class="lst_social">
+				<li><a class="sp" href="#none">페이스북 바로가기</a></li>
+				<li><a class="sp icon02" href="#none">트위터 바로가기</a></li>
+				<li><a class="sp icon03" href="#none">카카오톡 친구신청 바로가기</a></li>
+			</ul>
+			<div class="copyright">Copyright &copy; 2017. LOST STAR. Created by Jin</div>
+		</footer>
+</body>
+</html>

@@ -1,0 +1,183 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/LotteMartDreamMedium.woff') format('woff');
+}
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../font/LotteMartDreamLight.woff') format('woff');
+}
+
+/*****초기화*****/
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:'LotteMartDream','나눔고딕',nanumgothic,'돋움',Dotum,AppleGothic,sans-serif;font-size:14px}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{text-decoration:none}
+a:active,a:focus{text-decoration:underline}
+button {overflow:visible;border:0 none;background-color:transparent;cursor:pointer}
+.blind,legend,body .off{overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:100px;white-space:nowrap;border:0;}
+.blocker {position:fixed;top:0;bottom:0;right:0;left:0;width:100%;height:100%;overflow:auto;z-index:40;padding:20px;background-color:rgba(0,0,0,0.7);text-align:center;}
+.none {display:none;}
+body {z-index:10;position:relative;box-sizing:border-box;}
+hr {display:none}
+/*****초기화*****/
+.sp {background:url(../img/sp.png) 0 0 no-repeat;}
+.close-modal {position:absolute;top:-18px;right:-20px;width:40px;height:40px;display:block;font-size:0;background:url(../img/sp.png) -119px -118px no-repeat;}
+/* background */
+body {background-color:#000}
+#wrap {background:url(../img/bg.jpg) no-repeat center center fixed;background-size:cover;min-height:100%;min-width:1024px;width:100%;height:auto;top:0;left:0}
+.container {width:1280px;margin:0 auto}
+/* header */
+header {height:30px;padding:28px 0}
+header:after {display:block;clear:both;content:''}
+h1 {display:block;float:left;padding:6px 30px}
+.head_logo {width:114px;height:17px;display:block;font-size:0}
+.lst_gnb {float:right;}
+.lst_gnb li {display:inline-block;position:relative;}
+/*.lst_gnb a {color:#fff;font-family:'BM JUA'}*/
+.btn {width:102px;height:30px;float:left;border:1px solid #c9c7f5;border-radius:20px;line-height:30px;text-align:center;color:#fff;box-sizing:border-box;}
+.btn:hover {background-color:rgba(256,256,256,0.3);}
+.btn:focus {outline:none;}
+
+/*버튼 클릭시 말풍선*/
+.tooltip {display:inline-block;position:absolute;;margin:0 auto;border:1px solid #999;border-radius:5px;background-color:#fff}
+.tooltip:after {content:'';position:absolute;border-bottom:10px solid #fff;border-right:10px solid transparent;border-left:10px solid transparent;}
+
+.lst_gnb .login {width:119px;border-color:#935bee}
+.lst_gnb .signin {width:119px;height:31px;background-position:0 -85px;border:0;line-height:32px}
+.lst_search {display:inline-block}
+.lst_search li {padding:0 3px;}
+.lst_search .ser_btn {border-color:#fff}
+.lst_search .location {background-color:transparent;}
+.btn_search2 {margin-right:10px;}
+/*.btn_search:hover {background-color:rgba(256,256,256,0.3);}*/
+/*위치 버튼*/
+.lst_gnb .container_loca {top:28px;left:-94px;padding:18px 27px;width:263px;height:86px}
+.lst_gnb .container_loca:after {top:-9px;left:140px;}
+.container_loca.tooltip p {padding-top:18px;font-size:16px;color:#383838;font-weight:200}
+.container_loca.tooltip p:first-child {padding:0;}
+.lst_search input[type="text"]::-webkit-input-placeholder {color:#fff;}
+/*input 안에 들어가는 placeholder 설정 vendor prefixed 필요*/
+.lst_search input:focus::-webkit-input-placeholder,textarea:focus::-webkit-placeholder {color:transparent}
+/*input에 포커스 했을 때 placeholder내용이 안보이게 처리했다. 크롬 외에 vender prefixed 필요하다*/
+/*포커스 됐을 때 placeholder 내용을 바꾸는 걸로 변경할까.. 이건 jQuery 인듯..*/
+/*달력 버튼 클릭시*/
+.container_calen {top:28px;left:-94px;width:485px;height:229px;z-index:30;}
+.container_calen:after {top:-9px;left:140px}
+.tooltip .wrap_calendar_left {position:absolute;left:10px;top:10px;width:226px;margin:0 auto;background-color:#fff;border:1px solid #e8eef1;}
+.tooltip .wrap_calendar_right {position:absolute;right:10px;top:10px;width:226px;margin:0 auto;background-color:#fff;border:1px solid #e8eef1;}
+.tooltip .btn-holder {text-align:center;margin:10px 0 10px 0;font-family:'나눔고딕';font-size:12px}
+.tooltip .btn-holder:after {display:block;clear:both;content:''}
+.tooltip .btn-holder .sp {margin:0 0 0 5px;float:left;width:11px;height:16px;background-position:-201px -52px;}
+#btnNext ,#btnNext2 {margin:0 5px 0 0;float:right;background-position:-214px -52px;}
+#calendar table,#calendar2 table {border-collapse:collapse;text-align:center;}
+#calendar table thead td,#calendar2 table thead td {height:28px;font-weight:bold;}
+.tooltip #calendar table td.date-cell,.tooltip #calendar2 table td.date-cell {height:28px;color:#9faeb4;font-family:'나눔고딕';font-size:12px}
+.tooltip #calendar table td.date-cell.click {background-color:#b6b5e0;color:#fff;}
+.tooltip #calendar table td.not-this-month,.tooltip #calendar table td.not-this-month {color:#dce1e3;}
+/*인원 버튼 클릭시*/
+.wrap_guest {padding:13px 20px;top:28px;left:-41px;margin:0 auto;width:147px;height:68px;z-index:30;}
+.wrap_guest:after {top:-9px;left:85px}
+.wrap_guest .bx_adult:after {display:block;clear:both;contet:'';}
+.wrap_guest.tooltip button {float:left;width:24px;height:24px;background-position:-266px -26px;font-family:'나눔고딕';font-size:16px}
+.wrap_guest button.right {float:right;background-position:-240px -26px;}
+.wrap_guest .wrap_text {width:67%;margin:0 auto;display:inline-block;text-align:center;font-family:'나눔고딕';font-size:16px}
+.wrap_guest span {text-align:center;line-height:24px;}
+.wrap_guest .bx_child {padding-top:18px;}
+/*요금범위 클릭시(css 별개)*/
+.wrap_range.tooltip {padding:35px 25px;top:28px;left:-75px;width:213px;z-index:30}
+.wrap_range:after {top:-9px;left:120px}
+/*로그인 버튼 클릭시..*/
+/*psd 파일이 introduce에 있음*/
+.wrap_login.tooltip {position:relative;display:inline-block;margin-top:116px;padding:56px 30px 0 30px;width:310px;height:352px;z-index:30}
+.wrap_login:after {border-bottom:0;}
+.wrap_login:before {border-bottom:0;}
+.wrap_login strong,.wrap_signin strong {background-image: linear-gradient( linear, left top, right top, #9cc1d4,#9d8bed);color:transparent;-webkit-background-clip: text;background-clip: text;font-size:24px;text-align:center;display:inline-block;} 
+/*텍스트 그라데이션효과 background로 배경이 깔려서 padding을 주면 효과가 안따라온다*/
+.wrap_login input {margin-top:53px;width:300px;height:35px;display:inline-block;border:1px solid #dee7eb;border-radius:5px;padding-left:10px;}
+.wrap_login input:nth-child(2) {margin-top:19px;}
+.wrap_login input::-webkit-input-placeholder {color:#72848c;font-weight:200;}
+.wrap_login .forgot {padding-top:25px;}
+.wrap_login form a,.wrap_login .forgot,.wrap_signin form a {color:#72848c;font-family:'LotteMartDream';text-align:center;font-weight:200;}
+.btn_login,.btn_singin {margin-top:24px;width:310px;height:42px;background-image:gradient(linear, left top, right top, color-stop(0, #9d8bed), color-stop(1,#9cc1d4));background-image:-webkit-gradient(linear, left top, right top, color-stop(0, #9d8bed), color-stop(1,#9cc1d4));border-radius:22px;color:#fff;}
+.wrap_login .ch_singin {padding-top:30px;text-align:center;}
+/*sign in*/
+.wrap_signin.tooltip {position:relative;display:inline-block;margin-top:116px;padding:47px 44px 0 44px;width:310px;height:443px;}
+.wrap_signin:after {border-bottom:0;}
+.wrap_signin:before {border-bottom:0;}
+.wrap_signin strong,.wrap_login strong {background-image:linear-gradient(left top, right top,(0, #9d8bed), color-stop(1,#9cc1d4));background-image:-webkit-gradient(linear, left top, right top, color-stop(0, #9d8bed), color-stop(1,#9cc1d4));}
+.wrap_signin form>input {margin-top:19px;padding-left:10px;width:300px;height:35px;color:#72848c;font-weight:200;border:1px solid #dee7eb;border-radius:5px;}
+.wrap_signin form>input:first-child {margin-top:35px;}
+/*체크박스*/
+.wrap_signin input[type="checkbox"] {position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip:rect(0,0,0,0); border: 0;}/*기존 체크박스를 안보이게*/
+.wrap_signin input[type="checkbox"] + label {display: inline-block; position: relative; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;}
+/*가상체크박스 만들어주기*/
+.wrap_signin input[type="checkbox"] + label:before {content: ' '; display: inline-block; width: 12px; /* 체크박스의 너비를 지정 */ height: 12px; /* 체크박스의 높이를 지정 */ line-height: 12px; /* 세로정렬을 위해 높이값과 일치 */ margin: -2px 8px 0 0; text-align: center; vertical-align: middle; background: #8771ee;}
+.wrap_signin input[type="checkbox"]:checked ~ label:before { /* 체크박스를 체크했을때 */ content: '\2714'; /* 체크표시 유니코드 사용 */ color: #fff;font-size:10px; text-shadow: 1px 1px #fff; background: #8771ee;}
+.wrap_signin form>div {padding-top:20px;position:relative;text-align:center}
+.wrap_signin .wrap_terms {padding-top:14px;}
+.wrap_privacy a, .wrap_terms a {color:#72848c;font-family:'LotteMartDream';font-weight:200;}
+.wrap_signin label {color:#72848c;cursor:pointer;font-weight:200;}
+.wrap_signin .btn_singin {font-size:16px;}
+
+
+
+/* section 01 */
+.banner {position:relative;width:1280px;height:814px;background:url(../img/banner_01.jpg)}
+.banner p {margin-left:32%;padding-top:200px;color:#fff;font-size:42px;font-weight:400}
+.banner p:nth-child(4) {margin-left:36%;padding-top:24px;font-size:36px;letter-spacing:-3px}
+.banner .bar01 {position:absolute;top:20%;display:block;width:285px;height:17px;background:url(../img/intro01.png) no-repeat 0 0;}
+.banner .bar02 {left:auto;right:0;top:39%;width:244px;background:url(../img/intro02.png);}
+
+/* section 02 */
+.bx_title {width:395px;}
+.bx_title h2 {padding-top:74px;font-size:40px;font-weight:200;color:#fff;letter-spacing:-3px}
+.bx_title span {display:block;height:2px;width:124px;margin:10px auto 0;background-color:#ff2640}
+.lst_random {padding:64px 0 190px}
+.lst_random:after {display:block;clear:both;content:'';}
+.lst_random li {float:left}
+.lst_random a {display:block;width:320px;height:520px;background:url(../img/card_01.jpg) no-repeat}
+.lst_random a {
+    transform-origin: center center 0px; 
+    /*transform: matrix(1, 0, 0, 1, 0, 0);*/
+    
+      -webkit-transition: all 2.5s ease;
+      -moz-transition: all 2.5s ease;
+      -o-transition: all 2.5s ease;
+      transition: all 1.5s ease;
+}
+.lst_random a:hover {
+    /*transform: matrix(1.3, 0, 0, 1.3, 0, 0);*/
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+    transform: scale(1.05,1.05);
+    z-index:5555;
+}
+.lst_random .bx_card2 {background:url(../img/card_02.jpg)}
+.lst_random .bx_card3 {background:url(../img/card_03.jpg)}
+.lst_random .bx_card4 {background:url(../img/card_04.jpg)}
+.lst_random .text {float:right;padding:483px 20px 0 0;font-size:20px;font-weight:200;color:#fff;text-shadow: 0 0 3px #000;letter-spacing:-1px}
+
+/* footer */
+footer {width:1280px;padding-top:54px;margin:0 auto;background-color:#000;color:#97a9b2;font-size:16px}
+footer a {color:#97a9b2;font-size:16px}
+.foot_logo {display:block;margin:0 auto;width:174px;height:25px;background-position:0 -227px;font-size:0}
+.lst_footmenu {width:100%;padding-top:26px;text-align:center}
+.lst_footmenu li {display:inline-block}
+.lst_footmenu li:nth-child(1) a:hover {background-color:rgba(256,256,256,0.3);}
+.lst_footmenu a {display:inline-block;padding:5px 13px}
+address {padding-top:12px;text-align:center}
+.address {display:inline-block}
+.lst_social {padding-top:24px;text-align:center}
+.lst_social li {display:inline-block}
+.lst_social a {display:inline-block;width:30px;height:30px;background-position:-1px -119px;font-size:0;}
+.lst_social .icon02 {background-position:-33px -119px;}
+.lst_social .icon03 {background-position:-65px -119px;}
+.copyright {padding:32px 0 54px;margin:0 auto;font-size:12px;text-align:center;}

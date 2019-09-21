@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lost Star - 길을 잃은 그대에게</title>
+	<!-- <link rel="//cdn.rawgit.com/morijin/morijin.github.io/fb530e22/webfont/webfont.css"> -->
+	<link type="text/css" rel="stylesheet" href="css/style_main.css">
+	<link type="text/css" rel="stylesheet" href="css/jquery.range.css">
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/jquery.range-min.js"></script>
+	<script src="js/calendar.js"></script>
+	<script src="js/jquery.modal.js"></script>
+	<script src="js/jquery.textillate.js"></script>
+	<script src="js/jquery.lettering.js"></script>
+	<script src="js/background.cycle.js"></script>
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a77ee5dbb0b4e4203e722232986b6627"></script>
+	<script>
+		$(function () {
+			$('a[href="#none"]').click(function(event) {
+				alert('아직 준비 되지 않았어요 :)');
+			});
+
+			$('#bar01').animate({left:'200px'},1000);
+			$('#bar02').animate({right:'200px'},1000);
+			//여기까지 인트로 bar animation
+
+			$('.lst_gnb .btn_search').click(function(){
+				$(this).siblings('.lst_search').fadeIn(800);
+				$(this).siblings('.btn_search2').fadeIn(800);
+				$(this).addClass('off');
+			});
+			$('.lst_search .btn').click(function(){					
+				$me = $(this).next('.box01');
+				$me.toggleClass('off');
+				$me.toggleClass('tooltip');
+				$(this).parent().siblings().children('.box01').not($me).removeClass('tooltip').addClass('off');
+			});
+			$('.location').focus(function(){
+				$('.location').animate({'width':'200px'}, 300);
+			});
+			$('.location').blur(function(){
+				$('.location').animate({'width':'102px'}, 300);
+			});
+			//버튼 클릭 후 제외하는 공간을 클릭할 때 없어지게... 하고싶다...
+			// $('body').click(function(e){ 
+			//  		if($('.box01').hasClass('tooltip')) {
+			//  				if(!$('#autoKeyword,#input_search').has(e.target).length){
+			//  					$('.box01').hide();
+			//  					}			 			
+			//  			}
+			// });
+			//여기까지 gnb 버튼 설정 by.J
+
+			$(".banner").backgroundCycle({
+			    imageUrls: [
+			    	// 이미지 경로쓰기
+			        'img/banner_01.jpg',
+			        'img/banner_02.jpg',
+			        'img/banner_03.jpg'
+			    ],
+			    fadeSpeed: 3000,
+			    duration: 3000,
+			    delay: 4000,
+			    backgroundSize: SCALING_MODE_COVER
+			});
+			//여기까지 배너 롤링
+			$('.text01').textillate({
+				initialDelay: 600,
+				delay: 200,
+				loop: true,
+				autoStart: true
+			});
+			$('.text02').textillate({
+				initialDelay: 1100,
+				delay: 200,
+				loop: true
+			});
+			//여기까지 인트로 타이핑
+			function log_modal_event(event, modal) {
+			  if(typeof console != 'undefined' && console.log) console.log("[event] " + event.type);
+			};
+			$(document).on($.modal.BEFORE_BLOCK, log_modal_event);
+			$(document).on($.modal.BLOCK, log_modal_event);
+			$(document).on($.modal.BEFORE_OPEN, log_modal_event);
+			$(document).on($.modal.OPEN, log_modal_event);
+			$(document).on($.modal.BEFORE_CLOSE, log_modal_event);
+			$(document).on($.modal.CLOSE, log_modal_event);
+			$(document).on($.modal.AFTER_CLOSE, log_modal_event);
+			$(document).on($.modal.AJAX_SEND, log_modal_event);
+			$(document).on($.modal.AJAX_SUCCESS, log_modal_event);
+			$(document).on($.modal.AJAX_COMPLETE, log_modal_event);
+			$('a[href="#signin"]').click(function(event) {
+			  event.preventDefault();
+			  $(this).modal({
+			    fadeDuration: 250
+			  });
+			});
+			$('a[href="#login"]').click(function(event) {
+			  event.preventDefault();
+			  $(this).modal({
+			    fadeDuration: 250
+			  });
+			});
+			$('a[href="#bx_compair"]').click(function(event) {
+			  event.preventDefault();
+			  $(this).modal({
+			    fadeDuration: 250
+			  });
+			});
+
+		    'use strict';
+		    $('.bx_adult').each(function ( index, element ) {
+		        var count = 0;
+		        var $component = $(element);
+		        var $output = $component.find('.counter-output');
+
+		        var updateCount = function( increment ) {
+		            count += increment;
+		            count = count < 0 ? 0 : count;
+
+		            $output.text(count);
+		        };
+
+		        $component.on('click', '[data-increment]', function ( event ) {
+		            var increment = $(event.target).data('increment');
+		            updateCount(+increment);
+		        });
+
+		        updateCount( count ); //initial state
+		    });
+		    $('.bx_child').each(function ( index, element ) {
+		        var count = 0;
+		        var $component = $(element);
+		        var $output = $component.find('.counter-output_child');
+
+		        var updateCount = function( increment ) {
+		            count += increment;
+		            count = count < 0 ? 0 : count;
+
+		            $output.text(count);
+		        };
+
+		        $component.on('click', '[data-increment]', function ( event ) {
+		            var increment = $(event.target).data('increment');
+		            updateCount(+increment);
+		        });
+
+		        updateCount( count ); //initial state
+		    });
+		    //여기까지 사람 숫자 counter (2군데)
+		    $('.range-slider').jRange({
+		        from: 10000,
+		        to: 100000,
+		        step: 1,
+		        scale: [10000,100000],
+		        format: '%s',
+		        width: 210,
+		        showLabels: true,
+		        isRange : true,
+		        theme : 'theme-blue'
+		    });
+		    //여기까지 금액설정 range-slider
+		});
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<div class="container">
+			<header>
+				<h1><a href="#" class="head_logo sp">Lost Star - 게스트하우스 검색하기</a></h1>
+				<ul class="lst_gnb">
+					<li>
+						<button class="btn btn_search">검색</button>
+						<a class="btn btn_search2" style="display:none" href="html/search.html">검색</a>
+						<ul class="lst_search" style="display:none">
+							<!-- btn버튼 클릭시 아래 class명 lst_search 으로 변경 
+								동시에 btn 클래스에 off 클래스 추가 -->
+							<li>
+								<input class="btn ser_btn location" type="text" placeholder="위치"></input>
+								<!-- input 클릭시 아래 class명 off를 tooltip 으로 변경 -->
+								<div class="container off">
+									<p>제주도</p>
+									<p>제주특별자치도 제주시 제주도공항</p>
+									<p>제주특별자치도 제주시 제주도청</p>
+								</div>
+							</li>
+							<li>
+								<button class="btn ser_btn date">날짜</button>
+								<!-- date 클릭시 아래 class 명 off를 tooltip 으로 변경 -->
+								<div class="container_calen off box01">
+									<div class='wrap_calendar_left'>
+										<div class='btn-holder'>
+											<button id='btnPrev' class="sp"></button>
+											 <span id='currentDate'></span> 
+											<!-- <button id='btnNext' class="sp"></button> -->
+										</div>
+										<div id="calendar"></div>
+									</div>
+									<div class='wrap_calendar_right'>
+										<div class='btn-holder'>
+											<!-- <button id='btnPrev2' class="sp"></button> -->
+											 <span id='currentDate2'></span> 
+											<button id='btnNext2' class="sp"></button>
+										</div>
+										<div id="calendar2"></div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<button class="btn ser_btn guest">인원</button>
+								<!-- guest 버튼 클릭시 아래 class 명 off를 tooltip 으로 변경 -->
+								<div class="wrap_guest off box01">
+									<div class="bx_adult">
+										<button class="sp" type="button" data-increment="-1"></button>
+										<div class="wrap_text">
+											<span>성인</span>
+											<span class="counter-output"></span>
+										</div>
+										<button class="sp right" type="button" data-increment="1"></button>
+									</div>
+									<div class="bx_child">
+										<button class="sp" type="button" data-increment="-1"></button>
+										<div class="wrap_text">
+											<span>유아</span>
+											<span class="counter-output_child"></span>
+										</div>
+										<button class="sp right" type="button" data-increment="1"></button>
+									</div>
+								</div>
+							</li>
+							<li>
+								<button class="btn ser_btn cash">요금범위</button>
+								<!-- cash 버튼 클릭시 아래 class 명 off를 tooltip 으로 변경 -->
+								<div class="wrap_range off box01">
+									<input class="range-slider" type="hidden" value="20000,80000" />
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="btn login" href="#login">로그인</a>
+						<!-- login 버튼 클릭시 아래 class 명 off를 tooltip 으로 변경 -->
+						<div class="modal wrap_login tooltip" id="login" style="display:none">
+							<strong>로그인</strong>
+							<form>
+								<input type="email" placeholder="이메일주소"/>
+								<input type="password" placeholder="비밀번호"/>
+								<div class="forgot">
+									<a href="#">이메일 주소</a> / <a href="#">비밀번호</a>가 생각나지 않으세요?
+								</div>
+								<button class="btn_login" type="submit">LOGIN</button>
+								<div class="ch_singin">
+									<a href="#signin">Lost Star 계정이 없으세요? 회원가입 하세요!</a>
+								</div>
+							</form>
+						</div>
+					</li>
+					<li>
+						<a class="btn signin sp" href="#signin">회원가입</a>
+						<div class="modal wrap_signin tooltip" id="signin" style="display:none">
+							<strong>회원가입</strong>
+							<form>
+								<input type="text" placeholder="이름"/>
+								<input type="email" placeholder="이메일주소"/>
+								<input type="password" placeholder="비밀번호 설정"/>
+								<input type="password" placeholder="비밀번호 재확인"/>
+								<div class="wrap_privacy">
+									<input type="checkbox" id="privacy"/>
+									<label for="privacy">이용약관에 동의합니다.</label>
+									<a href="#">(자세한내용)</a>
+								</div>
+								<div class="wrap_terms">
+									<input type="checkbox" id="terms"/>
+									<label for="terms">개인정보취급방침에 동의합니다.</label>
+									<a href="#">(자세한내용)</a>
+								</div>
+								<button class="btn_singin" type="submit">회원가입</button>
+								<div class="ch_login">
+									<a href="#login">Lost Star 계정이 이미 있나요? 로그인 하세요!</a>
+								</div>
+							</form>
+						</div>
+					</li>
+				</ul>
+			</header>
+			<section class="main_banner">
+				<div class="banner">
+					<span id="bar01" class="bar01"></span>
+					<span id="bar02" class="bar01 bar02"></span>
+					<p class="text01">길을 찾고 있어요?</p>
+					<p class="text02">길을 잃은 그대에게 친구가 될께요.</p>
+				</div>
+			</section>
+			<section class="section2">
+				<div class="bx_title">
+					<h2>항상 꿈꿔왔던 게스트하우스</h2>
+					<span></span>
+				</div>
+				<ul class="lst_random">
+					<li>
+						<a class="bx_card" href="html/item.html">
+							<span class="text">서울 삼청동 24 게스트하우스</span>
+						</a>
+					</li>
+					<li>
+						<a class="bx_card2" href="html/item02.html">
+							<span class="text">광주 지리산 케빈 하우스</span>
+						</a>
+					</li>
+					<li>
+						<a class="bx_card3" href="html/item02.html">
+							<span class="text">서울 사랑채 하늘나래방</span>
+						</a>
+					</li>
+					<li>
+						<a class="bx_card4" href="html/item.html">
+							<span class="text">경주 한옥 덕인당 독채</span>
+						</a>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</div>
+		<footer>
+			<a href="#" class="foot_logo sp">Lost Star</a>
+			<ul class="lst_footmenu">
+				<li><a href="html/introduce.html" class="link">소개</a></li>
+				<li><a href="#none">이용약관</a></li>
+				<li><a href="#none">개인정보취급방침</a></li>
+			</ul>
+			<address>
+				<span class="address">서울시 송파구 송파대로 444 Tower 010 3층</span>
+			</address>
+			<ul class="lst_social">
+				<li><a class="sp" href="#none">페이스북 바로가기</a></li>
+				<li><a class="sp icon02" href="#none">트위터 바로가기</a></li>
+				<li><a class="sp icon03" href="#none">카카오톡 친구신청 바로가기</a></li>
+			</ul>
+			<div class="copyright">Copyright &copy; 2017. LOST STAR. Created by Jin</div>
+		</footer>
+</body>
+</html>
